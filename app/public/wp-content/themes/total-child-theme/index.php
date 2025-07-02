@@ -24,7 +24,7 @@ get_header(); ?>
 
 		<?php
 
-		if ( ( "https://$_SERVER[HTTP_HOST]" . '/learn/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) ) {
+                if ( is_page( "learn" ) ) {
 
 			echo '<div class="lur-sitewide-hero-container">
 				<section class="lur-sitewidehero-hero">
@@ -205,7 +205,7 @@ get_header(); ?>
 	</div>
 
 	<?php
-	if ( ( "https://$_SERVER[HTTP_HOST]" . '/learn/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", '?s=') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'category/') ) ) {
+        if ( is_page( "learn" ) || is_search() || is_category() ) {
 
 		echo '<div class="lur-abovefooter-sitewide-footer-contact-section" id="lur-abovefooter-sitewide-footer-contact-section">
 		  <div class="lur-sitewide-footer-contact-right-column">
