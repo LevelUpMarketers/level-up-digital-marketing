@@ -70,7 +70,7 @@ function load_custom_styles() {
         enqueue_homepage_stylesheet();
     }
 
-    if ( is_page( 'website-design' ) ) {
+    if ( is_page( 'website-design' ) || is_page( 'new-website-special' ) ) {
         enqueue_websitedesign_stylesheet();
     }
 
