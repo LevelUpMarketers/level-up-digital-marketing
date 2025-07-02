@@ -25,98 +25,89 @@ function remove_wpautop_filter() {
 
 add_action( 'init', 'remove_wpautop_filter' );
 
-
 function enqueue_homepage_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'homepage-style', get_stylesheet_directory_uri() . '/styles/homepage.css', array(), '1.0', 'all' );
-}
-// Enqueue homepage css
-if ( ( 'https://levelupmarketers.com/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( 'https://levelupmarketers.com/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_homepage_stylesheet' );
 }
 
 function enqueue_websitedesign_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'websitedesign-style', get_stylesheet_directory_uri() . '/styles/websitedesign.css', array(), '4.0', 'all' );
-}
-// Enqueue Services - website design css
-if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/website-design')  ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_websitedesign_stylesheet' );
 }
 
 function enqueue_seo_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'seo-style', get_stylesheet_directory_uri() . '/styles/seo.css', array(), '4.0', 'all' );
-}
-// Enqueue Services - website design css
-if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/search-engine-optimization')  ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_seo_stylesheet' );
 }
 
 function enqueue_contact_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'contact-style', get_stylesheet_directory_uri() . '/styles/contact.css', array(), '1.0', 'all' );
-}
-// Enqueue contact css
-if ( "https://$_SERVER[HTTP_HOST]" . '/contact/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_contact_stylesheet' );
 }
 
 function enqueue_whowehelp_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'whowehelp-style', get_stylesheet_directory_uri() . '/styles/whowehelp.css', array(), '1.0', 'all' );
-}
-// Enqueue contact css
-if ( "https://$_SERVER[HTTP_HOST]" . '/who-we-help/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_whowehelp_stylesheet' );
 }
 
 function enqueue_locations_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'locations-style', get_stylesheet_directory_uri() . '/styles/locations.css', array(), '1.0', 'all' );
-}
-// Enqueue locations css
-if ( "https://$_SERVER[HTTP_HOST]" . '/locations/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_locations_stylesheet' );
 }
 
 function enqueue_services_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'services-style', get_stylesheet_directory_uri() . '/styles/services.css', array(), '1.0', 'all' );
-}
-// Enqueue contact css
-if ( "https://$_SERVER[HTTP_HOST]" . '/services/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_services_stylesheet' );
 }
 
 function enqueue_learn_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'learn-style', get_stylesheet_directory_uri() . '/styles/learn.css', array(), '1.0', 'all' );
-}
-// Enqueue contact css
-if ( ( "https://$_SERVER[HTTP_HOST]" . '/learn/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", '?s=') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'learn/category/') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'learn/author/') )  ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_learn_stylesheet' );
 }
 
 function enqueue_insights_dashboard_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'learn-style', get_stylesheet_directory_uri() . '/styles/insightsdashboard.css', array(), '1.0', 'all' );
 }
 
-if ( ( "https://$_SERVER[HTTP_HOST]" . '/insights-dashboard/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", '?s=') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'insights-dashboard') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'insights-dashboard') )  ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_insights_dashboard_stylesheet' );
-}
-
 function enqueue_indiv_blog_stylesheet() {
-    // Enqueue your custom stylesheet
     wp_enqueue_style( 'indiv-blog-style', get_stylesheet_directory_uri() . '/styles/indiv-blog.css', array(), '1.0', 'all' );
 }
 
+function load_custom_styles() {
+    if ( is_front_page() ) {
+        enqueue_homepage_stylesheet();
+    }
 
-// Enqueue contact css
-if ( ( false === stripos( "$_SERVER[REQUEST_URI]", 'category') ) && ( false !== stripos( "$_SERVER[REQUEST_URI]", 'learn') ) && ( 'learn/' !== substr( "$_SERVER[REQUEST_URI]" , -6)  ) && ( false === stripos( "$_SERVER[REQUEST_URI]", '/author/')  ) ) {
-    add_action( 'wp_enqueue_scripts', 'enqueue_indiv_blog_stylesheet' );
+    if ( is_page( 'website-design' ) || is_page( 'new-website-special' ) ) {
+        enqueue_websitedesign_stylesheet();
+    }
+
+    if ( is_page( 'search-engine-optimization' ) ) {
+        enqueue_seo_stylesheet();
+    }
+
+    if ( is_page( 'contact' ) ) {
+        enqueue_contact_stylesheet();
+    }
+
+    if ( is_page( 'who-we-help' ) ) {
+        enqueue_whowehelp_stylesheet();
+    }
+
+    if ( is_page( 'locations' ) ) {
+        enqueue_locations_stylesheet();
+    }
+
+    if ( is_page( 'services' ) ) {
+        enqueue_services_stylesheet();
+    }
+
+    if ( is_page( 'learn' ) || is_search() || is_category() || is_author() ) {
+        enqueue_learn_stylesheet();
+    }
+
+    if ( is_page( 'insights-dashboard' ) || is_search() || strpos( $_SERVER['REQUEST_URI'], 'insights-dashboard' ) !== false ) {
+        enqueue_insights_dashboard_stylesheet();
+    }
+
+    if ( is_single() && strpos( $_SERVER['REQUEST_URI'], 'learn' ) !== false && ! is_author() && ! is_category() ) {
+        enqueue_indiv_blog_stylesheet();
+    }
 }
+add_action( 'wp_enqueue_scripts', 'load_custom_styles' );
+
 
 
 // Printing Page Template
@@ -163,7 +154,7 @@ function sitewide_add_structure_to_head() {
               "closes": "00:00"
             }
           ],
-        "email": "contact@leveluprichmond.com",
+        "email": "contact@levelupmarketers.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1011 E Main St suite 222",
@@ -295,11 +286,11 @@ function webdesign_add_structure_to_head() {
 
 add_action('wp_head', 'sitewide_add_structure_to_head');
 
-if ( ( 'https://level-up-digital-marketing.local/services/website-design/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( 'https://levelupmarketers.com/services/website-design/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) ) {
-    add_action('wp_head', 'webdesign_add_structure_to_head');
-}
-
-
+add_action( 'wp_head', function() {
+    if ( is_page( 'website-design' ) ) {
+        webdesign_add_structure_to_head();
+    }
+});
 
 
 
@@ -336,62 +327,59 @@ function total_child_enqueue_parent_theme_style() {
 }
 //add_action( 'wp_enqueue_scripts', 'total_child_enqueue_parent_theme_style' );
 
+
 function enqueue_custom_javascript() {
-
-    if ( ( 'https://level-up-digital-marketing.local/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( 'https://levelupmarketers.com/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) ) {
+    if ( is_front_page() ) {
         wp_enqueue_script(
-            'custom-script', // Handle for the script (can be any unique name)
-            '/wp-content/themes/total-child-theme/javascript/homepage.js', // Path to your JavaScript file
-            array('jquery'), // Dependencies (if any)
-            '1.0', // Script version (optional)
-            true // Whether to load the script in the footer (true) or the header (false)
+            'custom-script',
+            '/wp-content/themes/total-child-theme/javascript/homepage.js',
+            array('jquery'),
+            '1.0',
+            true
         );
     }
 
-    if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/website-design')  ) {
+    if ( is_page( 'website-design' ) ) {
         wp_enqueue_script(
-            'custom-script', // Handle for the script (can be any unique name)
-            '/wp-content/themes/total-child-theme/javascript/services-website.js', // Path to your JavaScript file
-            array('jquery'), // Dependencies (if any)
-            '1.0', // Script version (optional)
-            true // Whether to load the script in the footer (true) or the header (false)
+            'custom-script',
+            '/wp-content/themes/total-child-theme/javascript/services-website.js',
+            array('jquery'),
+            '1.0',
+            true
         );
     }
 
-    if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'insights-dashboard')  ) {
+    if ( is_page( 'insights-dashboard' ) ) {
         wp_enqueue_script(
-            'custom-script', // Handle for the script (can be any unique name)
-            '/wp-content/themes/total-child-theme/javascript/insights-dashboard.js', // Path to your JavaScript file
-            array('jquery'), // Dependencies (if any)
-            '1.0', // Script version (optional)
-            true // Whether to load the script in the footer (true) or the header (false)
+            'custom-script',
+            '/wp-content/themes/total-child-theme/javascript/insights-dashboard.js',
+            array('jquery'),
+            '1.0',
+            true
         );
     }
 
-    if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/search-engine-optimization')  ) {
+    if ( is_page( 'search-engine-optimization' ) ) {
         wp_enqueue_script(
-            'custom-script', // Handle for the script (can be any unique name)
-            '/wp-content/themes/total-child-theme/javascript/services-seo.js', // Path to your JavaScript file
-            array('jquery'), // Dependencies (if any)
-            '1.0', // Script version (optional)
-            true // Whether to load the script in the footer (true) or the header (false)
+            'custom-script',
+            '/wp-content/themes/total-child-theme/javascript/services-seo.js',
+            array('jquery'),
+            '1.0',
+            true
         );
     }
 
-    if (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/')  ) {
+    if ( is_page( 'services' ) || strpos( $_SERVER['REQUEST_URI'], 'services/' ) !== false ) {
         wp_enqueue_script(
-            'custom-script', // Handle for the script (can be any unique name)
-            '/wp-content/themes/total-child-theme/javascript/services.js', // Path to your JavaScript file
-            array('jquery'), // Dependencies (if any)
-            '1.0', // Script version (optional)
-            true // Whether to load the script in the footer (true) or the header (false)
+            'custom-script',
+            '/wp-content/themes/total-child-theme/javascript/services.js',
+            array('jquery'),
+            '1.0',
+            true
         );
     }
-    
-
 }
-add_action('wp_enqueue_scripts', 'enqueue_custom_javascript');
-
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_javascript' );
 /*
  * White list functions for use in Total Theme Core shortcodes.
  */
@@ -412,21 +400,21 @@ function allow_svg_upload($mimes) {
 add_filter('upload_mimes', 'allow_svg_upload');
 
 
+
 function homepage_custom_title_tag( $title )
 {
-    if ( ( 'https://level-up-digital-marketing.local/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( 'https://levelupmarketers.com/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) ) {
+    if ( is_front_page() ) {
         return 'Level Up Digital Marketing | Expert Website Design, SEO, Paid Search & Content Marketing Services';
-    } elseif (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/search-engine-optimization')  ) {
-        return "SEO Services by Level Up Digital Marketing | Enhance Your Rankings & Visibility";
-    } elseif (  false !== stripos( "$_SERVER[REQUEST_URI]", 'services/website-design')  ) {
-        return "Professional Website Design Services by Level Up Digital Marketing | Elevate Your Online Presence";
-    } elseif (  false !== stripos( "$_SERVER[REQUEST_URI]", 'contact')  ) {
-        return "Get in Touch with Level Up Digital Marketing | Reach Out for Expert Digital Marketing Solutions";
+    } elseif ( is_page( 'search-engine-optimization' ) ) {
+        return 'SEO Services by Level Up Digital Marketing | Enhance Your Rankings & Visibility';
+    } elseif ( is_page( 'website-design' ) ) {
+        return 'Professional Website Design Services by Level Up Digital Marketing | Elevate Your Online Presence';
+    } elseif ( is_page( 'contact' ) ) {
+        return 'Get in Touch with Level Up Digital Marketing | Reach Out for Expert Digital Marketing Solutions';
     } else {
         return $title;
     }
 }
-
 add_filter( 'pre_get_document_title', 'homepage_custom_title_tag' );
 
 add_filter('get_the_archive_title', function ($title) {

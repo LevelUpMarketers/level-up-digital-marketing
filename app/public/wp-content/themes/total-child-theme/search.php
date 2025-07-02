@@ -19,7 +19,7 @@ get_header();
 
 		<?php
 
-		if ( ( "https://$_SERVER[HTTP_HOST]" . '/learn/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", '?s=') ) ) {
+                if ( is_page( "learn" ) || is_search() ) {
 
 			echo '<div class="lur-sitewide-hero-container">
 				<section class="lur-sitewidehero-hero">
@@ -127,7 +127,7 @@ get_header();
 	</div>
 
 	<?php
-	if ( ( "https://$_SERVER[HTTP_HOST]" . '/learn/' === "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", '?s=') ) || ( false !== stripos( "$_SERVER[REQUEST_URI]", 'category/') ) ) {
+        if ( is_page( "learn" ) || is_search() || is_category() ) {
 
 		echo '<div class="lur-abovefooter-sitewide-footer-contact-section" id="lur-abovefooter-sitewide-footer-contact-section">
 		  <div class="lur-sitewide-footer-contact-right-column">
@@ -137,7 +137,7 @@ get_header();
 		      <p class="lur-expertise-paragraph-text" style="color:#013a51;">We understand that searching for the right partner to help with your Digital Marketing needs can be it\'s own part-time job! That\'s why we strive to make things as straight-forward and simple for our clients as possible. Do you have 5 minutes to decide if we\'re that right partner? That\'s all it takes. <a class="text-link" href="tel:8044898188">Give us a call at (804) 489-8188</a>.</p>
 		      <div class="lur-expertise-button-container">
 		        <a class="lur-button-1-smaller" href="tel:8044898188"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundphoneicon.svg" alt="Phone Symbol" class="lur-expertise-image"></span>(804) 489-8188</a>
-		        <a class="lur-button-1-smaller" href="mailto:contact@leveluprichmond.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@leveluprichmond.com</a>
+		        <a class="lur-button-1-smaller" href="mailto:contact@levelupmarketers.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@levelupmarketers.com</a>
 		      </div>
 		    </div>
 		  </div>
