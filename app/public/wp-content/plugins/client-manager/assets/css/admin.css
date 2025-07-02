@@ -1,0 +1,200 @@
+.cm-indiv-table-holder{
+	margin-left:50px;
+	margin-top: 40px;
+	height: 0;
+    overflow: hidden;
+}
+
+.cm-indiv-edit-service-table-holder{
+	margin-top: 40px;
+	height: 0;
+    overflow: hidden;
+}
+
+.cm-indiv-client-name{
+	font-weight:bold;
+	font-size:25px;
+}
+
+.cm-indiv-client-holder{
+	background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cm_addnewclient_placeholder_logo{
+	width: 100px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cm-top-project-new-type p, .cm-top-project-new-which-client p{
+	font-size:25px;
+	font-weight:bold;
+}
+
+.indiv-new-project-form-holder{
+	margin-top: 50px;
+    position: relative;
+    min-height: 1000px;
+}
+
+.cm-form-title{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.cm-new-project-create{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.cm-top-project-new-holder{
+	text-align:center;
+}
+
+.cm-new-project-form-actual-top-holder{
+	background-color: #ddd;
+    padding-top: 20px;
+    border: solid 1px black;
+    margin-top:50px;
+    position: absolute;
+    pointer-events:none;
+    opacity:0;
+    margin-bottom:100px;
+}
+
+.cm-new-support-ticket-top-holder{
+	background-color: #ddd;
+    padding-top: 20px;
+    border: solid 1px black;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.cm-new-project-form-entry-holder{
+	display:inline-block;
+	margin:20px;
+	text-align: center;
+	width:200px;
+	vertical-align:top;
+}
+
+.cm-new-project-form-entry-holder input, .cm-new-project-form-entry-holder select, .cm-new-project-form-entry-holder textarea{
+	width:100%;
+}
+
+.cm-new-project-form-entry-holder label, .cm-new-project-form-entry-holder input, .cm-new-project-form-entry-holder select, .cm-new-project-form-entry-holder textarea{
+	display:block;
+}
+
+.cm-add-a-new-client-table{
+
+}
+
+.cm-add-a-new-client-table tr, .cm-edit-a-client-table tr{
+	display: inline-block;
+    max-width: 200px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.cm-add-a-new-client-table th, .cm-edit-a-client-table th{
+	display:block;
+	padding: 0;
+}
+
+.cm-add-a-new-client-table td, .cm-edit-a-client-table td{
+	display:block;
+	padding:0px;
+}
+
+.cm-add-a-new-client-table td input, .cm-edit-a-client-table td input{
+	width: 95%;
+	margin-bottom:10px;
+}
+
+.cm-edit-service-create{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.cm-top-project-new-holder{
+	text-align:center;
+}
+
+.cm-edit-service-form-actual-top-holder{
+	background-color: #ddd;
+    padding-top: 20px;
+    border: solid 1px black;
+    margin-top:50px;
+    position: absolute;
+}
+
+.cm-edit-service-form-entry-holder, .cm-new-project-cb-form-entry-holder, .cm-new-project-lcl-form-entry-holder{
+	display:inline-block;
+	margin:20px;
+	text-align: center;
+	width:200px;
+	vertical-align:top;
+}
+
+.cm-new-project-lcl-form-entry-holder {
+    min-height: 80px;
+    vertical-align: initial;
+}
+
+.cm-new-project-cb-form-entry-holder, .cm-new-project-lcl-form-entry-holder{
+	width:300px;
+}
+
+.cm-edit-service-form-entry-holder input, .cm-edit-service-form-entry-holder select, .cm-edit-service-form-entry-holder textarea{
+	width:100%;
+}
+
+.cm-new-project-cb-form-entry-holder input, .cm-new-project-cb-form-entry-holder select, .cm-new-project-cb-form-entry-holder textarea, .cm-new-project-lcl-form-entry-holder input, .cm-new-project-lcl-form-entry-holder select, .cm-new-project-lcl-form-entry-holder textarea{
+	width:100%;
+}
+
+.cm-edit-service-form-entry-holder label, .cm-edit-service-form-entry-holder input, .cm-edit-service-form-entry-holder select, .cm-new-project-form-entry-holder textarea{
+	display:block;
+}
+
+.cm-new-project-cb-form-entry-holder label, .cm-new-project-cb-form-entry-holder input, .cm-new-project-cb-form-entry-holder select, .cm-new-project-form-entry-holder textarea{
+	display:block;
+}
+
+#wpfooter{
+	display:none;
+}
+
+.cm-edit-service{
+	display:block;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.cm-indiv-subtitle-inner-form{
+	background-color: #ccc;
+    border: solid 1px #aaa;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.cm-indiv-subtitle-inner-form-title{
+	font-weight:bold;
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
+

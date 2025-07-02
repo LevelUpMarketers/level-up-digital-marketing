@@ -1,0 +1,5077 @@
+/* Begin Site-Wide CSS */
+
+	.wpcf7 textarea:focus-visible, .wpcf7 .wpcf7-not-valid{
+		outline-color: #00596c!important;
+		border-color: #00596c!important;
+	}
+
+	.wpcf7 input:focus-visible, .wpcf7 .wpcf7-not-valid{
+		outline-color: #00596c!important;
+		border-color: #00596c!important;
+	}
+
+	.wpcf7-not-valid-tip {
+	    color: #00596c!important;
+	    font-weight: bold!important;
+	}
+
+	.lur-footer-menu-links{
+		margin-left:0px;
+	}
+
+	.lur-footer-menu-links li{
+		padding: 10px;
+	}
+
+	.lur-footer-menu-links a{
+
+	}
+
+	body .wpex-responsive .container {
+	  max-width: 100%;
+	}
+
+	div.lur-homepage-help-section-inner-2 > div.lur-homepage-help-section-3 > div#lur-homepage-help-section-3-inner-id > img.lur-homepage-blank-laptop{
+		width: 1000px;
+    height: 695px;
+	}
+
+	.sidr-class-wpex-close a:focus,
+	.sidr-class-wpex-close a:active,
+	.sidr-class-wpex-close a:focus {
+    outline: none;
+    box-shadow: none;
+	}
+
+
+	#site-logo-link img{
+		max-height: calc(var(--wpex-site-header-height, 100px) * var(--wpex-site-logo-max-height-ratio, .6));
+    width: auto;
+    position: absolute;
+    top: 18px;
+	}
+
+	#site-scroll-top {
+	    display:none;
+	}
+
+	#overlay-header-wrap{
+		z-index:10!important;
+	}
+
+	.lur-footer-container-top-row .lur-left-column img{
+		width: 200px;
+		height:50px;
+	}
+
+	#site-logo-link img:nth-child(1){
+		opacity:0;
+		transition:all .3s ease;
+	}
+
+	.is-sticky #site-logo-link img:nth-child(1){
+		opacity:1;
+		transition:all .3s ease;
+	}
+
+	.is-sticky #site-logo-link img:nth-child(2){
+		opacity:0;
+		transition:all .3s ease;
+	}
+
+	sup{
+		font-size: 12px!important;
+    position: relative;
+    bottom: 5px;
+	}
+
+	.text-link{
+		color:#00976c;
+	}
+
+	.lur-sitewide-footer-contact-left-column .wpcf7 form.invalid .wpcf7-response-output {
+    color: #dc3232;
+    background-color: #fff;
+    border-color: #dc3232;
+    border-radius: 5px;
+	}
+
+	.lur-sitewide-footer-contact-left-column .wpcf7 form.sent .wpcf7-response-output {
+    background-color: #fff;
+    border-left-color: #00ca90;
+    color: #192f44;
+    border-radius: 5px;
+	}
+
+	#site-header-inner{
+		max-width: var(--wpex-container-max-width);
+	}
+
+	#footer-bottom-inner{
+		max-width: var(--wpex-container-max-width);
+	}
+
+	.sub-menu{
+		border-radius: 10px;
+	}
+
+	#menu-item-993:hover .sub-menu{
+		visibility: visible;
+		opacity:1;
+	}
+
+	#site-header-flex{
+		z-index:-1;
+	}
+
+
+	#site-navigation-wrap{
+		text-align: right;
+		margin-right: 0;
+	}
+
+	#top-bar{
+		display: block;
+		text-align: center;
+		font-size:12px;
+	}
+
+	#top-bar-wrap{
+		z-index:999;
+	}
+
+	body .container {
+    width: 100%;
+    margin: 0 auto;
+	}
+
+	@font-face {
+	  font-family: 'Roobert-Regular';
+	  src: url('../fonts/Roobert-Regular.woff2') format('woff2');
+	  font-display: block;
+	}
+
+	@font-face {
+	  font-family: 'CooperLtBT-Regular';
+	  src: url('../fonts/cooper_lt_bt/CooperLightBT.woff2') format('woff2');
+	  font-display: block;
+	}
+
+	body{
+		font-family: Roobert-Regular,Helvetica,Verdana,sans-serif!important;
+		font-size:18px!important;
+		line-height: 1.44!important;
+		background:#fbfcf5 url(/wp-content/themes/total-child-theme/images/herobackground.svg) no-repeat;
+		background-position: top;
+		background-color: #f2f4e8!important;
+	}
+
+	a:hover{
+		transition:all .3s ease;
+	}
+
+	a:not(:hover){
+		transition:all .3s ease;
+	}
+
+	body h1{
+		font-family: CooperLtBT-Regular,Helvetica,sans-serif;
+		font-size: 60px;
+		color: #fff;
+		line-height: 1.33;
+		font-weight:400;
+	}
+
+	body h2, .lur-div-h2-1{
+		font-family: CooperLtBT-Regular,Helvetica,sans-serif;
+		font-size: 42px;
+		color: rgba(1,58,81,1.0);
+		line-height: 1.33;
+		font-weight:400;
+		margin-bottom: 10px;
+	}
+
+	/* Begin Headings Styling (both actual elements and pseudo) */
+	h3, .lur-div-h3-1{
+		font-family: CooperLtBT-Regular,Helvetica,sans-serif!important;
+    font-size: 24px!important;
+    line-height: 1.33!important;
+    font-weight: 400!important;
+    color: rgba(1,58,81,1.0);
+    margin-bottom: 5px!important;
+	}
+
+	.sub-paragraph-text{
+		font-size:16px;
+	}
+
+	@media screen and (max-width: 959px) {
+		h3, .lur-div-h3-1{
+			font-size: calc(.00822 * 100vw + 22.71233px);
+		}
+
+		.wpex-open-submenu.wpex-unstyled-button{
+			display:none;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+
+		.lur-column-container .lur-column img{
+			width: 219px;
+			height: 146px;
+		}
+
+		.top-bar-item:nth-child(3) {
+		  display:none;
+		}
+
+		.home .lur-homepage-hero {
+		    padding: 140px 50px 50px 50px;
+		}
+
+		.home .lur-homepage-cta-container{
+			margin-left: auto;
+    	margin-right: auto;
+		}
+
+		.wpex-last-mb-0>:last-child{
+			bottom: 35px;
+    	position: relative;
+		}
+
+		#footer-bottom .lur-bottom-left-column{
+			float:none;
+		}
+
+		#footer-bottom .lur-footer-container-bottom-row div{
+			display:block;
+			margin-top: 40px;
+		}
+
+		.lur-abovefooter-sitewide-footer-contact-section {
+		  padding: 100px 30px 100px 30px!important;
+		}
+
+		.lur-sitewide-footer-contact-left-column{
+			padding: 0px!important;
+		}
+
+		.lur-abovefooter-sitewide-footer-contact-section .lur-button-3-cf7{
+			width: 100%!important;
+		}
+
+		.lur-expertise-column {
+    	padding: 0;
+		}
+
+		.lur-homepage-expertise-section {
+    	padding: 100px 30px 100px 30px!important;
+		}
+
+		.lur-button-1, .lur-button-3{
+			line-height:18px!important;
+		}
+
+		.lur-home-hero-container .lur-button-1, .lur-home-hero-container .lur-button-3{
+			padding: 15px 15px 15px 15px!important;
+			min-width: 140px;
+		}
+
+		.lur-homepage-whowehelp-section {
+    	padding: 100px 5% 100px 5%!important;
+    	z-index: 9;
+    	position: relative;
+		}
+
+		.lur-whowehelp-first-p {
+	    width: 95%!important;
+		}
+
+		.lur-column-container {
+    	display: block!important;
+		}
+
+		.lur-row-right-column a {
+    	margin-right: 0;
+		}
+	}
+	/* End Headings Styling (both actual elements and pseudo) */
+
+	/* Begin Buttons Styling */
+	.lur-button-1{
+		background-color: #fff;
+		color: rgba(1, 58, 81,1.0);
+		padding: 17px 40px;
+		line-height: 16px;
+		border-radius:50px;
+		margin-right: 20px;
+		text-align:center;
+	}
+
+	.lur-button-1:hover{
+		background-color: #fff;
+		color: rgba(0, 202, 144,1.0);
+		box-shadow: box-shadow: 0 6px 8px rgba(25,27,35,.1);
+	}
+
+	.lur-button-1:not(:hover){
+		transition:all .3s ease;
+	}
+
+
+	.lur-button-1-smaller{
+		background-color: #fff;
+		color: rgba(1, 58, 81,1.0);
+		padding: 10px 30px;
+		line-height: 16px;
+		border-radius:50px;
+		margin-right: 20px;
+		text-decoration: none!important;
+    display: inline-block;
+    font-size: 14px;
+	}
+
+	.lur-button-1-smaller:hover{
+		background-color: #fff;
+		color: rgba(0, 202, 144,1.0);
+		box-shadow: 0 6px 8px rgba(25,27,35,.1);
+	}
+
+	.lur-button-1-smaller:not(:hover){
+		transition:all .3s ease;
+	}
+
+	.lur-button-2{
+		background-color:rgba(0, 202, 144,1.0);
+		padding: 17px 40px;
+		line-height: 16px;
+		border-radius: 50px;
+		cursor: pointer;
+		color: #fff!important;
+		text-decoration:none!important;
+	}
+
+	.lur-button-2:hover{
+		box-shadow: 0 6px 8px rgba(25,27,35,.1);
+		transition:all .3s ease;
+		background-color: rgba(19, 217, 160,1.0);
+	}
+
+	.lur-button-2:not(:hover){
+		transition:all .3s ease;
+	}
+
+	.lur-button-2-smaller{
+		background-color: rgba(0, 202, 144,1.0);
+    padding: 10px 30px;
+    line-height: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff!important;
+    text-decoration: none!important;
+    display: inline-block;
+    font-size: 14px;
+	}
+
+	.lur-button-2-smaller:hover{
+		box-shadow: 0 6px 8px rgba(25,27,35,.1);
+		transition:all .3s ease;
+		background-color: rgba(19, 217, 160,1.0);
+	}
+
+	.lur-button-2-smaller:not(:hover){
+		transition:all .3s ease;
+	}
+
+	.lur-button-3{
+		background-color: #192f44;
+		color: #fff;
+		padding: 17px 40px;
+		line-height: 16px;
+		border-radius:50px;
+		text-align:center;
+	}
+
+	.lur-button-3:hover{
+		background-color: #00596c;
+		color: #fff;
+		box-shadow: box-shadow: 0 6px 8px rgba(25,27,35,.1);
+	}
+
+	.lur-button-3:not(:hover){
+		transition:all .3s ease;
+	}
+
+	.lur-contactrow-span{
+		width: 32px;
+    display: block;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+
+	.lur-button-3-cf7{
+		background-color: #192f44!important;
+		color: #fff!important;
+		padding: 17px 40px!important;
+		line-height: 16px!important;
+		border-radius: 10px!important;
+		width: 35%!important;
+	}
+
+	.lur-button-3-cf7:hover{
+		background-color: #00596c!important;
+		color: #fff!important;
+		box-shadow: box-shadow: 0 6px 8px rgba(25,27,35,.1)!important;
+	}
+
+	.lur-button-3-cf7:not(:hover){
+		transition:all .3s ease!important;
+	}
+
+	.lur-button-4{
+		background-color: transparent;
+		color: #013a51;
+		border: 2px solid #00ca90;
+		padding: 17px 40px;
+		line-height: 16px;
+		border-radius:50px;
+		margin-right: 20px;
+	}
+
+	.lur-button-4:hover{
+		background-color: #00ca90;
+		color: #fff;
+		box-shadow: 0 6px 8px rgba(25,27,35,.1);
+	}
+
+	.lur-button-4:not(:hover){
+		transition:all .3s ease;
+	}
+
+	/* End Buttons Styling */
+
+	/* Begin Footer CSS  */
+		.lur-footer-container {
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			border: solid 1px rgba(39,86,104,1.0);
+			border-left: 0;
+			border-right: 0;
+			margin-bottom: 45px;
+			margin-top: 20px;
+			padding: 40px 0px 40px 0px;
+		}
+
+		.footer-contact-icons{
+    		position: relative;
+		    top: 5px;
+		    width: 20px;
+		    height: 20px;
+		    margin-right: 5px;
+		}
+
+		.lur-footer-container p{
+			margin:0;
+		}
+
+		.lur-footer-container-top-row div, .lur-footer-container-bottom-row div{
+			display: inline-block;
+		}
+
+		.lur-right-column{
+			float:right;
+		}
+
+		.lur-middle-column img{
+			width: 300px;
+			height: 150px;
+			border-radius:10px;
+			box-shadow: 0 6px 8px rgba(25,27,35,.1);
+			transition:all .3s ease;
+		}
+
+		.lur-middle-column img:hover{
+			box-shadow: 0 6px 8px rgba(25,27,35,.1);
+			transition:all .3s ease;
+		}
+
+		.lur-middle-column img:not(:hover){
+			transition:all .3s ease;
+		}
+
+		.lur-left-column,
+		.lur-middle-column,
+		.lur-right-column {
+		  flex: 1;
+		  margin-bottom: 20px;
+		  padding: 0px 20px 0px 20px;
+		}
+
+		.lur-right-column ul {
+		  list-style: none;
+		  padding: 0;
+		}
+
+		#footer-bottom{
+			background-color:rgba(25,56,68,1.0);
+			padding-top:60px;
+			position: relative;
+			z-index:9;
+		}
+
+		#copyright a:hover{
+			color: rgba(0,202,144,1.0);
+			text-decoration: none;
+		}
+
+		#copyright .lur-div-h3-1{
+			margin-bottom:30px;
+		}
+
+		.lur-bottom-left-column{
+			float: right;
+		}
+
+		.lur-bottom-left-column p{
+			display: inline-block;
+			text-align: center;
+			position: relative;
+			bottom: 33px;
+			line-height: 1;
+			font-size: 13px;
+			margin-right: 20px;
+		}
+
+		.lur-bottom-left-column img{
+			width: 95px;
+			height:46px;
+			bottom: 25px;
+			position: relative;
+		}
+
+		#copyright{
+			width: 100%;
+		}
+
+		@media screen and (max-width: 914px) {
+			.lur-right-column ul {
+			    margin: 0;
+			}
+		}
+
+		@media screen and (max-width: 825px) {
+			.lur-footer-container-top-row{
+				text-align:center;
+			}
+
+			.lur-footer-container-top-row .lur-button-2{
+				margin: 0px 0px 10px 0px;
+		    display: block;
+		    width: 160px;
+		    margin-left: auto;
+		    margin-right: auto;
+			}
+
+			.lur-left-column, .lur-right-column{
+				display:block;
+			}
+
+			.lur-right-column{
+				width: 100%;
+			}
+		}
+	/* End Footer CSS  */
+
+/* End Site-Wide CSS */
+
+/* Begin homepage header/menu CSS */
+
+	/* Before and  after scrolled width/padding */
+	#site-header.overlay-header{
+		padding-left: 5%;
+    padding-right: 5%;
+	}
+
+	/* Before scrolled main nav link color */
+	.main-navigation-ul>.menu-item>a>.link-inner{
+		color: #fff;
+	}
+
+	/* Before scrolled main nav link color */
+	.main-navigation-ul>.menu-item-41>a>.link-inner{
+		color: rgba(1, 58, 81,1.0);
+	}
+
+	/* Before scrolled main nav link color hover */
+	.main-navigation-ul>.menu-item>a>.link-inner:hover{
+		color: #fff;
+	}
+
+	/* Before scroll menu entry text color */
+	.wpex-sticky-header-holder.wpex-can-sticky.not-sticky .main-navigation-ul>.menu-item>a{
+		color: #fff;
+	}
+
+	/* Before scroll menu background */
+	#site-header.overlay-header.white-style.dyn-styles{
+		background-color:transparent;
+	}
+
+	/* Before scroll contact/highlight button  */
+	.menu-item-41{
+		background-color:#fff;
+		line-height: 16px;
+		border-radius: 50px;
+		cursor: pointer;
+	}
+
+	.menu-item-41 a{
+		padding:15px;
+	}
+
+	/* Before scroll contact/highlight button text color hover */
+	.menu-item-41 a:hover{
+		color: rgba(0, 202, 144,1.0);
+	}
+
+	/* Before scroll contact/highlight button hover */
+	.menu-item-41:hover{
+		background-color:#fff;
+		box-shadow: 0 6px 8px rgba(25,27,35,.1);
+		transition:all .3s ease;
+	}
+
+	/* Before scroll contact/highlight button text color hover */
+	.menu-item-41:hover a span{
+		color: rgba(0,202,144,1.0)!important;
+		transition:all .3s ease;
+	}
+
+	/* Before scroll contact/highlight button text color hover leaving */
+	.menu-item-41:not(:hover) a span{
+		transition:all .3s ease;
+	}
+
+	/* After scroll contact/highlight button text color */
+	.is-sticky .main-navigation-ul>.menu-item-41:hover a span{
+		color: #fff!important;
+	}
+
+	/* After scroll contact/highlight button background color */
+	.wpex-sticky-header-holder.wpex-can-sticky.is-sticky .menu-item-41{
+		background-color:rgba(0, 202, 144,1.0);
+	}
+
+	/* After scroll contact/highlight button background color hover */
+	.wpex-sticky-header-holder.wpex-can-sticky.is-sticky .menu-item-41:hover{
+		background-color:rgba(19, 217, 160,1.0);
+	}
+
+	/* After scroll contact/highlight button text color */
+	.wpex-sticky-header-holder.wpex-can-sticky.is-sticky .main-navigation-ul>.menu-item-41>a span{
+		color: #fff;
+	}
+
+	/* After scroll menu entry text color */
+	.wpex-sticky-header-holder.wpex-can-sticky.is-sticky .main-navigation-ul>.menu-item>a{
+		color: rgba(1, 58, 81,1.0);
+	}
+
+	/* After scroll menu background color */
+	#overlay-header-wrap #site-header-sticky-wrapper.is-sticky #site-header{
+		background-color: #fff;
+	}
+
+	/* After scrolled menu background color */
+	#wrap #overlay-header-wrap #site-header-sticky-wrapper.is-sticky #site-header{
+		background-color:#fff;
+	}
+
+	/* After scrolled main nav link color */
+	.is-sticky .main-navigation-ul>.menu-item>a>.link-inner{
+		color: rgba(1, 58, 81,1.0);
+	}
+	/* After scrolled main nav link color hover */
+	.is-sticky .main-navigation-ul>.menu-item>a>.link-inner:hover{
+		color: rgba(1, 58, 81,1.0);
+	}
+/* End header/menu CSS */
+
+
+/* Begin Homepage content css */
+.lur-homepage-help-section-inner-1{
+	text-align:center;
+	margin-bottom:65px;
+	position: relative;
+}
+
+.lur-homepage-help-section-inner-1 img{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+}
+
+.lur-homepage-help-section-inner-1 h2{
+	text-align:center;
+}
+
+#lur-homepage-identify-need-1{
+	left: 75%;
+	top: 235px;
+}
+
+#lur-homepage-identify-need-2{
+	left: 60%;
+  top: 60px;
+}
+
+#lur-homepage-identify-need-3{
+	left: 14%;
+	top: 90px;
+}
+
+#lur-homepage-identify-need-4{
+	left: 9%;
+	top: 250px;
+}
+
+#lur-homepage-identify-need-5{
+	left: 56%;
+	top: 388px;
+}
+
+#lur-homepage-identify-need-6{
+	left: 38%;
+}
+
+#lur-homepage-identify-need-7{
+	left: 29%;
+	top: 410px;
+}
+
+.lur-homepage-identify-need{
+	background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 6px 8px rgba(25,27,35,.1);
+  cursor:pointer;
+  text-align:center;
+  margin: 20px;
+  width: 110%;
+}
+
+.lur-homepage-identify-need p{
+	margin:0;
+	width: 100%!important;
+}
+
+.lur-homepage-identify-need img{
+	position: relative;
+	top:10px;
+	height: 32px;
+	width: 32px;
+}
+
+.lur-homepage-identify-need-p1{
+	margin:0;
+	cursor: pointer;
+	color: rgba(1,58,81,1.0);
+}
+
+.lur-homepage-accordian-container{
+	opacity: 0;
+  width: 100%!important;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  margin:0;
+  margin-top: 20px!important;
+}
+
+.lur-homepage-help-section-3-inner{
+	position: relative;
+	bottom: 100px;
+	right: 23px;
+	z-index:-25;
+}
+
+.lur-homepage-help-section-2{
+	z-index:1;
+	display: inline-block;
+  width: 50%;
+}
+
+.lur-homepage-help-section-3{
+	display: inline-block;
+  width: 40%;
+  right: 120px;
+}
+
+.lur-homepage-help-section-2, .lur-homepage-help-section-3{
+  position: relative;
+  vertical-align: top;
+}
+
+.lur-homepage-help-section{
+	padding: 180px 50px 50px 50px;
+}
+
+.lur-homepage-hero {
+  padding: 180px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lur-home-hero-container{
+	width: 110%;
+  right: 5%;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.lur-homepage-container {
+  max-width: 1200px;
+  display: flex;
+}
+
+.lur-homepage-left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lur-homepage-small-fake-button {
+	background-color: hsla(0,0%,100%,.25);
+	border-radius: 33px;
+	display: inline-block;
+	font-family: Roobert-Regular,Helvetica,Verdana,sans-serif!important;
+	font-size: 15px;
+	line-height: 1;
+	margin-bottom: 15px;
+	padding: 9px 15px;
+	color: #fff;
+}
+
+.lur-sitewide-supertext-1 {
+	display: inline-block;
+  font-family: Roobert-Regular,Helvetica,Verdana,sans-serif!important;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #00976c;
+}
+
+.lur-homepage-heading {
+  margin: 10px 0;
+}
+
+.lur-homepage-paragraph {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.lur-homepage-cta-container {
+  display: flex;
+}
+
+.lur-homepage-right-column {
+  flex: 1;
+  bottom: 100px;
+  left: 5%;
+}
+
+.rotate-image {
+  position: absolute;
+  bottom:0;
+}
+
+#lur-homepage-rotating-image1{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 0% 100%);
+}
+
+#lur-homepage-rotating-image2{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 82%, 0% 100%);
+	width: 620px;
+  bottom: 0px;
+}
+
+#lur-homepage-rotating-image3{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 0% 100%);
+}
+
+.lur-homepage-rotating-site-row-two{
+	position: absolute;
+  left: 0px;
+  top: 1px;
+  z-index: -1;
+}
+
+.lur-homepage-howthisworks{
+	background-color:#fbfcf5;
+	padding: 120px 10% 50px 10%;
+}
+
+.lur-homepage-hiw-left-column{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
+.lur-homepage-hiw-left-column .lur-button-4{
+	top: 15px;
+  position: relative;
+}
+
+.lur-homepage-hiw-right-column{
+	display: inline-block;
+  width: 54%;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.rotate-image-howthisworks-step1, .rotate-image-howthisworks-step2, .rotate-image-howthisworks-step3, .rotate-image-howthisworks-step4{
+	position: absolute;
+  bottom: 0;
+  opacity:0;
+  width: 200px;
+}
+
+#rotate-image-howthisworks-step1-2{
+	left:-50px;
+}
+
+.lur-homepage-hiw-right-column-steps-img-rotator-div{
+	position:relative;
+	height:130px;
+}
+
+.lur-homepage-hiw-right-column-steps h3{
+	margin-top:10px;
+}
+
+.lur-homepage-hiw-right-column-steps{
+	margin-top:40px;
+}
+
+/* Row */
+.lur-row {
+  margin-bottom: 85px;
+}
+
+.lur-row-left-column{
+	display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  margin-right:20px;
+}
+
+.lur-row-right-column{
+	display: inline-block;
+  width: 55%;
+  text-align: left;
+}
+
+.lur-row-right-column a{
+  margin-top: 10px;
+}
+
+.lur-row-right-column a:hover{
+	color: #00ca90;
+}
+
+/* Small Text */
+.lur-small-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Headline */
+.lur-headline {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Paragraph Text */
+.lur-paragraph-text {
+  font-size: 16px;
+  margin-bottom:0px;
+  color: #5c7782;
+}
+
+/* Column Container */
+.lur-column-container {
+  display: flex;
+}
+
+/* Column */
+.lur-column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Image */
+.lur-column img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  top: 20px;
+  position: relative;
+}
+
+/* Learn More Link */
+.lur-learn-more {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.lur-homepage-whowehelp-section{
+	text-align: center;
+  padding: 100px 10% 100px 10%;
+}
+
+.lur-homepage-whowehelp-section .lur-button-3{
+	position: relative;
+	top: 25px;
+}
+
+.lur-whowehelp-first-p{
+	color:#013a51;
+	width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lur-row img{
+	border-radius:10px;
+}
+
+.lur-expertise-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lur-expertise-column {
+  flex: 1 1 50%;
+  padding: 10px 30px 10px 10px;
+}
+
+.lur-expertise-small-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #bdbdbd;
+  margin-bottom:0;
+}
+
+.lur-expertise-headline {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.lur-expertise-paragraph-text {
+  font-size: 16px;
+}
+
+.lur-homepage-identify-need-p2{
+	text-align:left;
+}
+
+.lur-homepage-identify-need-p2 .text-link{
+	font-size:13px;
+}
+
+.lur-expertise-button-container a{
+  display:inline-block;
+  margin-right:10px;
+}
+
+.lur-expertise-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.lur-expertise-link {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.lur-expertise-image {
+  border-radius: 10px;
+  width:100%;
+}
+
+.lur-expertise-large-text {
+  font-size: 28px;
+  font-weight: bold;
+  color:#fff;
+  font-family: CooperLtBT-Regular,Helvetica,sans-serif!important;
+}
+
+.lur-homepage-expertise-section{
+	background-color: #0a2540;
+	padding: 100px 100px 235px 100px;
+}
+
+.lur-expertise-paragraph-text{
+	color: hsla(0,0%,100%,.65);
+  font-family: Roobert-Regular,Helvetica,Verdana,sans-serif;
+}
+
+.lur-expertise-blog-slider{
+	position: relative;
+}
+
+.lur-expertise-blog-slider-entry{
+	position: absolute;
+  text-align: right;
+  right: 0;
+}
+
+.lur-sitewide-footer-contact-left-column{
+	display:inline-block;
+	width: 50%;
+}
+
+.lur-sitewide-footer-contact-right-column{
+	display:inline-block;
+	width:44%;
+	vertical-align: top;
+	margin-right: 50px;
+}
+
+.lur-sitewide-footer-contact-right-column a{
+	width:100%;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+.lur-abovefooter-sitewide-footer-contact-section{
+	padding: 100px 100px 100px 100px;
+}
+
+#wpcf7-f230-p16-o1 textarea{
+	height:100px;
+}
+
+#wpcf7-f230-p16-o1 label{
+	color: #013a51;
+}
+
+#wpcf7-f230-p16-o1 input, #wpcf7-f230-p16-o1 textarea{
+	width:100%;
+}
+
+@media screen and (max-width: 1045px) {
+	.lur-expertise-button-container a {
+  	margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+	}
+}
+
+@media screen and (max-width: 959px) {
+	.lur-homepage-right-column {
+		display:none;
+	}
+
+	.lur-abovefooter-sitewide-footer-contact-section{
+		position: relative;
+  	padding: 100px 60px 100px 60px;
+	}
+
+	.lur-sitewide-footer-contact-left-column {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 60px 0px 60px;
+	}
+
+	.lur-sitewide-footer-contact-right-column {
+	    display: block;
+	    width: 100%;
+	}
+
+	.lur-sitewide-footer-contact-right-column .lur-expertise-button-container{
+		display:none;
+	}
+
+	.lur-expertise-row {
+    display: block;
+	}
+
+	.lur-expertise-column:nth-child(2) {
+		height: 325px;
+	}
+
+	.lur-homepage-expertise-section {
+    padding: 100px 60px 235px 60px;
+	}
+
+	#lur-homepage-expertise-section .lur-expertise-button-container{
+		display:none;
+	}
+
+	.lur-homepage-identify-need{
+		width: initial;
+	}
+
+	.lur-homepage-hiw-right-column {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+	}
+
+	.rotate-image-howthisworks-step1, .rotate-image-howthisworks-step2, .rotate-image-howthisworks-step3, .rotate-image-howthisworks-step4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	.lur-homepage-hiw-left-column {
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+	}
+
+	.lur-row-left-column {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    margin-right: 0px;
+	}
+
+	.lur-column img {
+    top: 0px;
+	}
+
+	.lur-row-right-column {
+    width: 100%;
+    text-align: center;
+	}
+
+	.lur-homepage-help-section-3{
+		position: absolute;
+    top: -265px;
+    left: 0;
+    opacity: 0.1;
+	}
+
+	.lur-homepage-help-section {
+    padding: 100px 20px 50px 20px;
+	}
+
+	.lur-homepage-help-section-2{
+		width: 100%!important;
+		margin-top:230px;
+	}
+
+	.lur-homepage-help-section-inner-1{
+		top:100px;
+	}
+
+	.lur-homepage-help-section-inner-2{
+		position:relative;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.lur-homepage-help-section-3-inner{
+		right: 85px;
+	}
+
+	.lur-homepage-help-section-2{
+		width: 59%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.lur-home-hero-container {
+		width: initial;
+		padding-left:20px;
+		padding-right:20px;
+		right:initial;
+	}
+
+	.lur-home-hero-container h1{
+		font-size:11vw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.lur-sitewide-footer-contact-left-column {
+	    bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.lur-expertise-button-container .lur-button-2 , .lur-expertise-button-container .lur-button-3 {
+		
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.lur-homepage-help-section-inner-1 img {
+    left: 50%;
+    right: 45%;
+    margin-left: auto;
+	}
+
+	.lur-homepage-help-section-2 {
+    margin-top: 110px;
+	}
+}
+
+
+.lur-homepage-supertext-1{
+	color: #00976c;
+}
+
+.lur-homepage-supertext-1-lighter{
+	color: #00ca90;
+}
+
+
+/* End homepage content css */
+
+
+/* Begin Mobile CSS */
+@media screen and (max-width: 959px) {
+
+	/* Mobile menu open background color */
+	body #sidr-main{
+		background-color: #fff;
+	}
+
+	/* Mobile menu close X */
+	.sidr-class-wpex-close a{
+		color: rgba(0, 0, 0,1.0);
+	}
+
+	/* Mobile menu link colors */
+	.sidr-inner a{
+		color: rgba(1,58,81,1.0);
+	}
+
+	/* Before scroll mobile hamburger handle  */
+	.wpex-hamburger-icon {
+	    position: relative;
+	    display: inline-block;
+	    height: calc((var(--wpex-hamburger-icon-bar-height, 3px) * 3) + (var(--wpex-hamburger-icon-gutter, 4px) * 2));
+	    width: calc(var(--wpex-hamburger-icon-width, 22px));
+	}
+
+	.wpex-hamburger-icon--animate>span {
+    	transition: background 10ms .15s ease;
+	}
+
+	.wpex-hamburger-icon>span {
+	    top: 50%;
+	    margin-top: calc(-1 * (var(--wpex-hamburger-icon-bar-height, 3px) / 2));
+	}
+
+	.wpex-hamburger-icon>span, .wpex-hamburger-icon>span::before, .wpex-hamburger-icon>span::after {
+	    background: currentColor;
+	    content: '';
+	    display: block;
+	    left: 0;
+	    position: absolute;
+	    height: var(--wpex-hamburger-icon-bar-height, 3px);
+	    width: 100%;
+	    transform-style: preserve-3d;
+	}
+
+	.wpex-hamburger-icon>span::before {
+	    top: calc(-1 * (var(--wpex-hamburger-icon-bar-height, 3px) + var(--wpex-hamburger-icon-gutter, 4px)));
+	}
+
+	.wpex-hamburger-icon>span::after {
+	    top: calc((var(--wpex-hamburger-icon-bar-height, 3px) + var(--wpex-hamburger-icon-gutter, 4px)));
+	}
+
+	/* Before scrolled Hamburger menu handle */
+	#site-header-sticky-wrapper #site-header.overlay-header.dyn-styles:not(.core-style) #mobile-menu a{
+		color: #fff;
+	}
+
+	/* After scrolled menu background */
+	#wrap #overlay-header-wrap #site-header-sticky-wrapper.is-sticky #site-header{
+		background-color:#fff;
+	}
+
+	/* After scrolled hamburger menu color */
+	.is-sticky .wpex-hamburger-icon>span, .is-sticky .wpex-hamburger-icon>span::before, .is-sticky .wpex-hamburger-icon>span::after {
+	    background: rgba(0, 0, 0,1.0);
+	    transition:all .3s ease;
+	}
+
+	.is-sticky:not .wpex-hamburger-icon>span, .is-sticky:not .wpex-hamburger-icon>span::before, .is-sticky:not .wpex-hamburger-icon>span::after {
+	    background: rgba(0, 0, 0,1.0);
+	    transition:all .3s ease;
+	}
+
+	/* After scrolled Hamburger menu handle */
+	.is-sticky #mobile-menu a{
+		color: rgba(0, 0, 0,1.0);
+	}
+}
+/* End Mobile CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Total's utilized CSS from style.css, per the Chrome dev tools coverage tool   */
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-size: 100%;
+	    font: inherit;
+	    vertical-align: baseline;
+	    font-family: inherit;
+	    font-style: inherit;
+	    font-weight: inherit
+	}
+
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	    display: block
+	}
+
+	html {
+	    font-size: 62.5%;
+	    -webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%
+	}
+
+	*,*:before,*:after {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box
+	}
+
+	article,aside,details,figcaption,figure,footer,header,main,nav,section {
+	    display: block
+	}
+
+	:root {
+	    --wpex-white: #ffffff;
+	    --wpex-black: #000000;
+	    --wpex-gray-50: #fafafa;
+	    --wpex-gray-100: #f7f7f7;
+	    --wpex-gray-200: #eeeeee;
+	    --wpex-gray-300: #e0e0e0;
+	    --wpex-gray-400: #bdbdbd;
+	    --wpex-gray-500: #9e9e9e;
+	    --wpex-gray-600: #757575;
+	    --wpex-gray-700: #616161;
+	    --wpex-gray-800: #424242;
+	    --wpex-gray-900: #222222;
+	    --wpex-gray-A900: #262626;
+	    --wpex-blue: #4a97c2;
+	    --wpex-blue-alt: #327397;
+	    --wpex-green: #87bf17;
+	    --wpex-green-alt: #679212;
+	    --wpex-red: #f73936;
+	    --wpex-red-alt: #bf0a08;
+	    --wpex-orange: #ee7836;
+	    --wpex-orange-alt: #cf5511;
+	    --wpex-purple: #9a5e9a;
+	    --wpex-purple-alt: #653e65;
+	    --wpex-pink: #f261c2;
+	    --wpex-pink-alt: #bc0f83;
+	    --wpex-teal: #00b3b3;
+	    --wpex-teal-alt: #006f6f;
+	    --wpex-brown: #804b35;
+	    --wpex-brown-alt: #5c3626;
+	    --wpex-gold: #ffaa33;
+	    --wpex-gold-alt: #ff9500;
+	    --wpex-rosy: #ea2487;
+	    --wpex-rosy-alt: #b81265;
+	    --wpex-grey: #bdbdbd;
+	    --wpex-grey-alt: #9e9e9e;
+	    --wpex-accent: #1a73e8;
+	    --wpex-accent-alt: #1464cc;
+	    --wpex-on-accent: var(--wpex-white);
+	    --wpex-on-accent-alt: var(--wpex-white);
+	    --wpex-red-error: #dc3232;
+	    --wpex-green-success: #46b450;
+	    --wpex-yellow-warning: #ffb900;
+	    --wpex-blue-info: #00a0d2;
+	    --wpex-star-rating-color: #ffc833;
+	    --wpex-text-1: var(--wpex-gray-900);
+	    --wpex-text-2: var(--wpex-gray-700);
+	    --wpex-text-3: var(--wpex-gray-600);
+	    --wpex-text-4: var(--wpex-gray-500);
+	    --wpex-surface-1: var(--wpex-white);
+	    --wpex-surface-2: var(--wpex-gray-100);
+	    --wpex-surface-3: var(--wpex-gray-200);
+	    --wpex-surface-4: var(--wpex-gray-300);
+	    --wpex-alert-bg: var(--wpex-surface-3);
+	    --wpex-alert-color: #32373c;
+	    --wpex-info-bg: #e5f5fa;
+	    --wpex-success-bg: #ecf7ed;
+	    --wpex-warning-bg: #fff8e5;
+	    --wpex-error-bg: #fbeaea;
+	    --wpex-bg-color: var(--wpex-surface-1);
+	    --wpex-border-main: var(--wpex-surface-3);
+	    --wpex-heading-color: var(--wpex-text-1);
+	    --wpex-input-color: var(--wpex-text-2);
+	    --wpex-input-bg: var(--wpex-surface-1);
+	    --wpex-input-border-color: var(--wpex-surface-4);
+	    --wpex-focus-input-color: var(--wpex-input-color);
+	    --wpex-focus-input-bg: var(--wpex-input-bg);
+	    --wpex-focus-input-border-color: var(--wpex-input-border-color);
+	    --wpex-table-thead-bg: var(--wpex-surface-2);
+	    --wpex-table-thead-color: var(--wpex-text-1);
+	    --wpex-table-th-color: var(--wpex-text-1);
+	    --wpex-table-cell-border-color: var(--wpex-border-main);
+	    --wpex-brands-facebook: #1877F2;
+	    --wpex-brands-twitter: #1DA1F2;
+	    --wpex-brands-pinterest: #BD081C;
+	    --wpex-brands-linkedin: #0A66C2;
+	    --wpex-text-xs: .846em;
+	    --wpex-text-sm: .923em;
+	    --wpex-text-base: 1em;
+	    --wpex-text-md: 1.077em;
+	    --wpex-text-lg: 1.231em;
+	    --wpex-text-xl: 1.385em;
+	    --wpex-text-2xl: 1.615em;
+	    --wpex-text-3xl: 1.846em;
+	    --wpex-text-4xl: 2.154em;
+	    --wpex-text-5xl: 2.462em;
+	    --wpex-text-6xl: 2.769em;
+	    --wpex-text-7xl: 3.231em;
+	    --wpex-rounded-xs: 3px;
+	    --wpex-rounded-sm: 5px;
+	    --wpex-rounded: 10px;
+	    --wpex-rounded-md: 15px;
+	    --wpex-rounded-lg: 20px;
+	    --wpex-rounded-full: 9999px;
+	    --wpex-leading-tight: 1.25;
+	    --wpex-leading-snug: 1.375;
+	    --wpex-leading-normal: 1.5;
+	    --wpex-leading-relaxed: 1.625;
+	    --wpex-leading-loose: 2;
+	    --wpex-tracking-tighter: -0.05em;
+	    --wpex-tracking-tight: -0.025em;
+	    --wpex-tracking-normal: 0;
+	    --wpex-tracking-wide: 0.025em;
+	    --wpex-tracking-wider: 0.05em;
+	    --wpex-tracking-widest: 0.1em;
+	    --wpex-radius-blob-1: 30% 70% 70% 30% / 53% 30% 70% 47%;
+	    --wpex-radius-blob-2: 53% 47% 34% 66% / 63% 46% 54% 37%;
+	    --wpex-radius-blob-3: 37% 63% 56% 44% / 49% 56% 44% 51%;
+	    --wpex-radius-blob-4: 63% 37% 37% 63% / 43% 37% 63% 57%;
+	    --wpex-radius-blob-5: 49% 51% 48% 52% / 57% 44% 56% 43%;
+	    --wpex-shadow-xs: 0 0 0 1px rgba(0,0,0,0.05);
+	    --wpex-shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+	    --wpex-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+	    --wpex-shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+	    --wpex-shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+	    --wpex-shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
+	    --wpex-shadow-2xl: 0 25px 50px -12px rgba(0,0,0,0.25);
+	    --wpex-shadow-inner: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+	    --wpex-focus-shadow-outline: 0 0 0 3px rgba(66,153,225,0.5);
+	    --wpex-row-gap: 20px;
+	    --wpex-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	    --wpex-font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+	    --wpex-font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	    --wpex-el-margin-bottom: 20px;
+	    --wpex-bold: 600;
+	    --wpex-link-text-decoration: none;
+	    --wpex-hover-link-text-decoration: underline;
+	    --wpex-btn-font-size: 1em;
+	    --wpex-btn-border-radius: var(--wpex-rounded-xs);
+	    --wpex-btn-font-weight: 400;
+	    --wpex-btn-padding: .538em 1.077em;
+	    --wpex-btn-line-height: var(--wpex-body-line-height, 1.65);
+	    --wpex-btn-letter-spacing: inherit;
+	    --wpex-btn-text-transform: inherit;
+	    --wpex-btn-font-family: inherit;
+	    --wpex-btn-font-style: inherit;
+	    --wpex-btn-border-width: 0;
+	    --wpex-btn-border-style: none;
+	    --wpex-heading-line-height: var(--wpex-leading-snug);
+	    --wpex-heading-font-weight: var(--wpex-bold);
+	    --wpex-container-width: 980px;
+	    --wpex-container-max-width: 90%;
+	    --wpex-content-area-width: 69%;
+	    --wpex-primary-sidebar-width: 26%;
+	    --wpex-boxed-layout-gutter: 30px;
+	    --wpex-input-font-size: 1em;
+	    --wpex-input-line-height: var(--wpex-leading-relaxed);
+	    --wpex-input-border-radius: var(--wpex-rounded-xs);
+	    --wpex-input-padding: 6px 10px;
+	    --wpex-input-border-width: 1px;
+	    --wpex-input-border-style: solid;
+	    --wpadminbar-height: 32px
+	}
+
+	.screen-reader-text {
+	    clip: rect(1px, 1px, 1px, 1px);
+	    position: absolute !important;
+	    height: 1px;
+	    width: 1px;
+	    overflow: hidden
+	}
+
+	.skip-to-content {
+	    position: absolute;
+	    left: 8px;
+	    top: -46px;
+	    opacity: 0;
+	    transition: all 0.25s
+	}
+
+	html {
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	}
+
+	body {
+	    font-family: var(--wpex-body-font-family, var(--wpex-font-sans));
+	    font-size: var(--wpex-body-font-size, 13px);
+	    line-height: var(--wpex-body-line-height, var(--wpex-leading-relaxed));
+	    color: var(--wpex-text-2);
+	    background-color: var(--wpex-bg-color);
+	    overflow-x: hidden;
+	}
+
+	.content-full-width .content-area,.content-area.full-width {
+	    width: 100%
+	}
+
+	#wrap {
+	    position: relative
+	}
+
+	.clr:after,.wpex-clr:after,.group:after,dl:after,.vc-empty-shortcode-element:after,ul.page-numbers:after,#comments .comment-body:after,.vcex-clr:after,.wpex-slider .sp-nc-thumbnail-container:after,.owl-nav:after {
+	    content: "";
+	    display: block;
+	    height: 0;
+	    clear: both;
+	    visibility: hidden
+	}
+
+	.wpex-row {
+	    margin-left: calc( -1 * ( var(--wpex-row-gap) / 2));
+	    margin-right: calc( -1 * ( var(--wpex-row-gap) / 2));
+	    display: flex;
+	    flex-wrap: wrap
+	}
+
+	.wpex-row.gap-30 {
+	    --wpex-row-gap: 30px
+	}
+
+	p {
+	    margin: 0 0 var(--wpex-el-margin-bottom)
+	}
+
+	a {
+	    color: var(--wpex-link-color, var(--wpex-accent));
+	    text-decoration: var(--wpex-link-text-decoration)
+	}
+
+	ul,ol {
+	    margin-top: 0;
+	    margin-right: 0;
+	    margin-left: var(--wpex-list-margin-side, 40px);
+	    margin-bottom: var(--wpex-list-margin-bottom, var(--wpex-el-margin-bottom))
+	}
+
+	button,input,select,textarea {
+	    font-size: 100%;
+	    line-height: inherit;
+	    margin: 0;
+	    vertical-align: baseline
+	}
+
+	input[type="date"],input[type="time"],input[type="datetime-local"],input[type="week"],input[type="month"],input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,.wp-block-post-comments-form input:not([type=submit]),.wp-block-post-comments-form textarea {
+	    display: inline-block;
+	    font-family: inherit;
+	    font-weight: inherit;
+	    text-align: inherit;
+	    max-width: 100%;
+	    font-size: var(--wpex-input-font-size);
+	    line-height: var(--wpex-input-line-height);
+	    transition: var(--wpex-input-transition);
+	    padding: var(--wpex-input-padding);
+	    border-radius: var(--wpex-input-border-radius);
+	    color: var(--wpex-input-color);
+	    background: var(--wpex-input-bg);
+	    box-shadow: var(--wpex-input-box-shadow, none);
+	    border: var(--wpex-input-border-width) var(--wpex-input-border-style) var(--wpex-input-border-color);
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none
+	}
+
+	input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-results-button,input[type="search"]::-webkit-search-results-decoration {
+	    display: none
+	}
+
+	::-webkit-input-placeholder {
+	    color: inherit;
+	    opacity: 0.7
+	}
+
+	.theme-button,.color-button,input[type="submit"],button,.button,.added_to_cart,.wp-block-search .wp-block-search__button,.wp-block-file a.wp-block-file__button,.wp-block-button__link {
+	    display: inline-block;
+	    cursor: pointer;
+	    -webkit-appearance: none;
+	    -webkit-font-smoothing: inherit;
+	    text-decoration: none !important;
+	    text-align: center;
+	    max-width: 100%;
+	    font-family: var(--wpex-btn-font-family);
+	    font-style: var(--wpex-btn-font-style);
+	    text-transform: var(--wpex-btn-text-transform);
+	    letter-spacing: var(--wpex-btn-letter-spacing);
+	    line-height: var(--wpex-btn-line-height);
+	    font-weight: var(--wpex-btn-font-weight);
+	    padding: var(--wpex-btn-padding);
+	    transition: 0.15s all ease;
+	    font-size: var(--wpex-btn-font-size);
+	    background-color: var(--wpex-btn-bg, var(--wpex-accent));
+	    color: var(--wpex-btn-color, var(--wpex-on-accent));
+	    border-radius: var(--wpex-btn-border-radius);
+	    border-width: var(--wpex-btn-border-width);
+	    border-style: var(--wpex-btn-border-style);
+	    border-color: var(--wpex-btn-border-color, currentColor)
+	}
+
+	:is(#site-header-inner,.footer-builder-content)>:last-child,.wp-block-post,.wpex-mb-0 {
+	    --wpex-block-margin-bottom: 0px
+	}
+
+	.post-edit {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 5px
+	}
+
+	.post-edit a {
+	    display: flex;
+	    align-items: center;
+	    text-decoration: none;
+	    padding: 6px 12px;
+	    border-radius: var(--wpex-rounded-xs);
+	    color: var(--wpex-on-accent);
+	    background: var(--wpex-accent);
+	    font-family: var(--wpex-font-sans);
+	    font-size: 13px
+	}
+
+	#top-bar {
+	    --wpex-link-color: currentColor;
+	    --wpex-hover-link-color: var(--wpex-link-color);
+	    --wpex-link-text-decoration: none
+	}
+
+	.top-bar-item a,.top-bar-item a:hover {
+	    text-decoration: none;
+	}
+
+	.top-bar-item a:hover {
+	    color: #fff;
+	}
+
+	#site-logo .site-logo-text {
+	    font-size: 24px;
+	    height: 100%;
+	    font-weight: bold;
+	    line-height: normal;
+	    text-decoration: none;
+	    color: var(--wpex-site-logo-color, var(--wpex-text-1))
+	}
+
+	.sf-menu,.sf-menu .sub-menu {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none
+	}
+
+	.sf-menu>.menu-item {
+	    float: left
+	}
+
+	.sub-menu .menu-item {
+		border-bottom: var(--wpex-dropmenu-link-border-width, var(--wpex-dropmenu-border-width, 1px)) solid var(--wpex-dropmenu-border-color, var(--wpex-surface-3));
+	}
+
+	.sub-menu .menu-item>a {
+			display: block;
+	    position: relative;
+	    color: #013a51;
+	    padding: 10px 30px 10px 50px;
+	    font-family: CooperLtBT-Regular,Helvetica,sans-serif;
+	    font-size: 20px;
+	    right: 20px;
+	}
+
+	.sub-menu .menu-item>a .link-inner:after {
+	  content: "";
+	  position: absolute;
+	  top: 43%;
+	  right: 0;
+	  background-image: url('/wp-content/themes/total-child-theme/images/submenuarrow.png');
+	  transition:all .3s ease;
+	  background-size: cover;
+	  background-position: center;
+	  width: 20px; /* Adjust this value to set the width of the image */
+	  height: 20px; /* Adjust this value to set the height of the image */
+	}
+
+	.sub-menu .menu-item>a:hover .link-inner:after {
+	  background-image: url('/wp-content/themes/total-child-theme/images/submenuarrowhover.png');
+	  transition:all .3s ease;
+	  animation: animateHorizontal 1s ease-in-out 1;
+	}
+
+	#menu-item-256{
+		padding-bottom: 5px;
+		border-bottom: none;
+	}
+
+	@keyframes animateHorizontal {
+	  0% {
+	    transform: translateX(0);
+	  }
+	  25% {
+	    transform: translateX(-5px);
+	  }
+	  75% {
+	    transform: translateX(5px);
+	  }
+	  100% {
+	    transform: translateX(0);
+	  }
+	}
+
+	.sub-menu .menu-item>a .link-inner:before {
+		content: "";
+    position: relative;
+    transition: all .3s ease;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    right: 10px;
+	}
+
+	#menu-item-259 .link-inner:before {
+    background-image: url(/wp-content/themes/total-child-theme/images/websitesubmenu.png);
+	}
+
+	#menu-item-258 .link-inner:before {
+    background-image: url(/wp-content/themes/total-child-theme/images/seosubmenu.png);
+	}
+
+	#menu-item-257 .link-inner:before {
+    background-image: url(/wp-content/themes/total-child-theme/images/blogsubmenu.png);
+	}
+
+	#menu-item-256 .link-inner:before {
+    background-image: url(/wp-content/themes/total-child-theme/images/paidsearchsubmenu.png);
+	}
+
+
+
+
+	.sf-menu .menu-item>a:hover {
+	    color: #00ca90;
+	}
+
+	.sf-menu {
+	    float: left
+	}
+
+	.sf-menu .menu-item {
+	    position: relative;
+	    white-space: nowrap
+	}
+
+	.sf-menu .sub-menu:not(.megamenu__inner-ul) {
+    position: absolute;
+    top: 100%;
+    right: -50%;
+    transition: all var(--wpex-dropmenu-transition-duration, 0.2s),z-index 0s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -10;
+    min-width: 140px;
+	}
+
+	.main-navigation-ul .sub-menu {
+	    padding: var(--wpex-dropmenu-padding, 0px);
+	    background: var(--wpex-dropmenu-bg, var(--wpex-surface-1));
+	    box-shadow: var(--wpex-dropmenu-box-shadow);
+	    border: var(--wpex-dropmenu-border-width, 1px) solid var(--wpex-dropmenu-border-color, var(--wpex-surface-3));
+	}
+
+	.main-navigation a {
+	    text-decoration: none
+	}
+
+	.main-navigation-ul>.menu-item:not(:last-child) {
+	    margin-right: var(--wpex-main-nav-gutter)
+	}
+
+	.main-navigation-ul>.menu-item>a {
+	    display: block;
+	    color: var(--wpex-main-nav-link-color, var(--wpex-text-2));
+	    background: var(--wpex-main-nav-link-bg);
+	    padding: var(--wpex-main-nav-link-padding-y, 0px) var(--wpex-main-nav-link-padding-x, 0px);
+	    line-height: normal
+	}
+
+	.main-navigation-ul>.menu-item>a>.link-inner {
+	    display: inline-block;
+	    line-height: normal;
+	    background: var(--wpex-main-nav-link-inner-bg);
+	    border-radius: var(--wpex-main-nav-link-inner-border-radius, 3px);
+	    padding: var(--wpex-main-nav-link-inner-padding-y) var(--wpex-main-nav-link-inner-padding-x)
+	}
+
+	#site-navigation-wrap {
+	    transition: background-color 0.15s ease, border-color 0.15s ease
+	}
+
+	.header-drop-widget {
+	    box-shadow: var(--wpex-dropmenu-box-shadow, var(--wpex-shadow))
+	}
+
+	.header-drop-widget--colored-top-border {
+	    border-style: solid;
+	    border-top-width: var(--wpex-dropmenu-colored-top-border-width, 3px);
+	    border-top-color: var(--wpex-dropmenu-colored-top-border-color, var(--wpex-accent))
+	}
+
+	#site-header-sticky-wrapper.is-sticky #site-header {
+	    position: fixed;
+	    overflow: visible !important;
+	    z-index: 1001;
+	    background-color: var(--wpex-surface-1)
+	}
+
+	#site-header-sticky-wrapper.is-sticky .has-sticky-dropshadow {
+	    box-shadow: 0px 2px 5px rgba(0,0,0,0.1)
+	}
+
+	#site-header-sticky-wrapper.is-sticky #site-header-inner {
+	    z-index: 999
+	}
+
+	.header-fixed-height #site-header-inner {
+	    height: var(--wpex-site-header-height, 100px)
+	}
+
+	.header-eight-logo,.header-nine-logo {
+	    margin-right: var(--wpex-site-header-gutter, 25px)
+	}
+
+	.navbar-style-seven,.navbar-style-eight,.navbar-style-nine,.navbar-style-ten {
+	    --wpex-main-nav-link-padding-y: 1em;
+	    --wpex-main-nav-link-padding-x: 1.3em;
+	    --wpex-main-nav-link-inner-padding-y: 0px;
+	    --wpex-main-nav-link-inner-padding-x: 0px;
+	    background: var(--wpex-main-nav-bg, transparent)
+	}
+
+	.wpex-mobile-toggle-menu-icon_buttons .header-seven #mobile-menu,.wpex-mobile-toggle-menu-icon_buttons .header-eight #mobile-menu,.wpex-mobile-toggle-menu-icon_buttons .header-nine #mobile-menu,.wpex-mobile-toggle-menu-icon_buttons .header-ten #mobile-menu {
+	    margin-left: var(--wpex-mobile-menu-toggle-side-margin, 25px)
+	}
+
+	#mobile-menu {
+	    --wpex-link-color: currentColor;
+	    --wpex-hover-link-color: currentColor
+	}
+
+	#sidr-main {
+	    --wpex-link-text-decoration: none;
+	    --wpex-hover-link-text-decoration: none;
+	    --wpex-link-color: currentColor;
+	    display: block;
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+	    z-index: 999999;
+	    max-width: 100%;
+	    padding-bottom: 30px;
+	    overflow-x: hidden;
+	    overflow-y: auto;
+	    font-size: 14px;
+	    -webkit-overflow-scrolling: touch;
+	    user-select: none;
+	    width: var(--wpex-sidr-width, 320px);
+	    background: var(--wpex-surface-1)
+	}
+
+	#sidr-main.sidr-right {
+	    left: auto;
+	    right: calc( -1 * var(--wpex-sidr-width, 320px))
+	}
+
+	#sidr-main .sidr-class-wpex-close {
+	    margin-bottom: var(--wpex-sidr-gutter)
+	}
+
+	#sidr-main .sidr-inner {
+	    padding-left: var(--wpex-sidr-gutter);
+	    padding-right: var(--wpex-sidr-gutter)
+	}
+
+	.sidr-class-wpex-close {
+	    line-height: normal;
+	    font-size: 32px;
+	    font-family: "Times New Roman", Times, serif;
+	    font-weight: bold;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale
+	}
+
+	.sidr-class-wpex-close a {
+	    display: inline-block;
+	    padding: 10px 20px;
+	    text-decoration: none
+	}
+
+	.sidr a {
+	    border: 0
+	}
+
+	.sidr-class-dropdown-menu>li:first-child {
+	    border-top: 1px solid var(--wpex-border-main)
+	}
+
+	.sidr-class-dropdown-menu li {
+	    border-bottom: 1px solid var(--wpex-border-main)
+	}
+
+	.sidr-mobile-nav-menu__link {
+	    padding: 0.9em 20px
+	}
+
+	.sidr-class-mobile-menu-searchform {
+	    position: relative;
+	    border-bottom: 1px solid var(--wpex-border-main)
+	}
+
+	.sidr-class-mobile-menu-searchform input[type="search"] {
+	    width: 100%;
+	    background: none;
+	    border: 0;
+	    outline: 0;
+	    font-size: 1em;
+	    color: inherit;
+	    font-weight: inherit;
+	    border-radius: 0;
+	    box-shadow: none;
+	    line-height: inherit;
+	    padding: 0.9em 55px 0.9em 20px
+	}
+
+	.sidr-class-mobile-menu-searchform button {
+	    background: none;
+	    display: block;
+	    position: absolute;
+	    right: 20px;
+	    height: 30px;
+	    line-height: 30px;
+	    width: 30px;
+	    text-align: right;
+	    top: 50%;
+	    margin-top: -15px;
+	    color: inherit;
+	    padding: 0;
+	    outline: 0;
+	    border: 0
+	}
+
+	.sidr-class-mobile-menu-searchform input[placeholder],.sidr-class-mobile-menu-searchform label {
+	    color: inherit
+	}
+
+	.searchform {
+	    position: relative
+	}
+
+	.searchform label {
+	    margin: 0;
+	    padding: 0;
+	    display: block
+	}
+
+	.searchform input {
+	    width: 100%;
+	    background-repeat: no-repeat;
+	    background-position: right center;
+	    padding-top: .7em;
+	    padding-bottom: .7em;
+	    padding-left: .8em;
+	    padding-right: 30px
+	}
+
+	.searchform .searchform-submit {
+	    position: absolute;
+	    top: 50%;
+	    right: 14px;
+	    height: 20px;
+	    line-height: 20px;
+	    margin: -10px 0 0;
+	    background: none;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    color: var(--wpex-input-color);
+	    font-size: .85em;
+	    opacity: .5;
+	    transition: none
+	}
+
+	#searchform-dropdown {
+	    width: 260px
+	}
+
+	#searchform-dropdown input[type="search"] {
+	    display: block;
+	    outline: 0;
+	    border: 0;
+	    width: 100%;
+	    height: auto;
+	    line-height: normal;
+	    border-radius: 0;
+	    color: var(--wpex-text-2);
+	    padding: 12px 10px;
+	    background: var(--wpex-surface-2)
+	}
+
+	#searchform-dropdown button,#searchform-dropdown input[type="submit"],#searchform-dropdown .woocommerce-product-search button {
+	    display: none
+	}
+
+	.site-footer {
+	    --wpex-link-text-decoration: none;
+	    --wpex-hover-link-text-decoration: none
+	}
+
+	#footer-bottom {
+	    --wpex-link-text-decoration: none;
+	    --wpex-hover-link-text-decoration: none
+	}
+
+	.wpex-surface-dark {
+	    --wpex-surface-1: var(--wpex-gray-A900);
+	    --wpex-surface-2: rgba(255,255,255,0.03);
+	    --wpex-surface-3: rgba(255,255,255,0.06);
+	    --wpex-surface-4: rgba(255,255,255,0.1);
+	    --wpex-text-1: var(--wpex-white);
+	    --wpex-text-2: var(--wpex-gray-500);
+	    --wpex-text-3: var(--wpex-gray-600);
+	    --wpex-text-4: var(--wpex-gray-700);
+	    --wpex-link-color: var(--wpex-gray-400);
+	    --wpex-hover-link-color: var(--wpex-white);
+	    --wpex-heading-color: var(--wpex-white);
+	    --wpex-hover-heading-link-color: var(--wpex-hover-link-color);
+	    --wpex-widget-link-color: var(--wpex-link-color);
+	    --wpex-hover-widget-link-color: var(--wpex-hover-link-color);
+	    --wpex-border-main: rgba(255,255,255,0.06);
+	    --wpex-table-thead-bg: var(--wpex-surface-2);
+	    --wpex-table-cell-border-color: var(--wpex-border-main);
+	    --wpex-table-thead-color: var(--wpex-text-1);
+	    --wpex-table-th-color: var(--wpex-text-1);
+	    --wpex-input-bg: var(--wpex-white);
+	    --wpex-input-color: var(--wpex-gray-700);
+	    --wpex-input-border-color: var(--wpex-border-main);
+	    --wpex-focus-input-color: var(--wpex-input-color);
+	    --wpex-focus-input-bg: var(--wpex-input-bg);
+	    --wpex-focus-input-border-color: var(--wpex-input-border-color);
+	    background: var(--wpex-surface-1);
+	    color: var(--wpex-text-2)
+	}
+
+	.wpex-surface-dark label {
+	    color: var(--wpex-text-2)
+	}
+
+	.wpex-text-2,.wpex-hover-text-2:hover {
+	    color: var(--wpex-text-2)
+	}
+
+	.wpex-text-4,.wpex-hover-text-4:hover {
+	    color: var(--wpex-text-4)
+	}
+
+	.wpex-surface-1,.wpex-hover-surface-1:hover {
+	    background-color: var(--wpex-surface-1)
+	}
+
+	.wpex-surface-2,.wpex-hover-surface-2:hover {
+	    background-color: var(--wpex-surface-2)
+	}
+
+	.wpex-border-surface-3,.wpex-hover-border-surface-3:hover {
+	    border-color: var(--wpex-surface-3)
+	}
+
+	.wpex-items-center {
+	    align-items: center
+	}
+
+	.wpex-bg-black,.wpex-hover-bg-black:hover {
+	    background-color: var(--wpex-black)
+	}
+
+	.wpex-bg-gray-900,.wpex-hover-bg-gray-900:hover {
+	    background-color: var(--wpex-gray-900)
+	}
+
+	.wpex-rounded-full {
+	    border-radius: var(--wpex-rounded-full) !important
+	}
+
+	.wpex-border-main {
+	    border-color: var(--wpex-border-main)
+	}
+
+	.wpex-border-solid {
+	    border-style: solid
+	}
+
+	.wpex-border-y {
+	    border-width: 1px 0
+	}
+
+	.wpex-border-b {
+	    border-bottom-width: 1px
+	}
+
+	.wpex-box-content {
+	    box-sizing: content-box
+	}
+
+	.wpex-hidden {
+	    display: none
+	}
+
+	.wpex-block {
+	    display: block
+	}
+
+	.wpex-flex {
+	    display: flex
+	}
+
+	.wpex-text-sm {
+	    font-size: var(--wpex-text-sm)
+	}
+
+	.wpex-text-lg {
+	    font-size: var(--wpex-text-lg)
+	}
+
+	.wpex-text-xl {
+	    font-size: var(--wpex-text-xl)
+	}
+
+	.wpex-h-100 {
+	    height: 100%
+	}
+
+	.wpex-max-h-100 {
+	    max-height: 100%
+	}
+
+	.wpex-justify-center {
+	    justify-content: center
+	}
+
+	.wpex-justify-between {
+	    justify-content: space-between
+	}
+
+	.wpex-list-none {
+	    list-style-type: none
+	}
+
+	.sidr-class-sub-menu.wpex-list-none.wpex-m-0.wpex-p-0.sidr-mobile-nav-menu__sub-menu.wpex-hidden{
+		display:block;
+		margin-left:20px;
+	}
+
+	.sidr-mobile-nav-menu__link.wpex-block.wpex-relative{
+		padding: 0.5em 20px;
+	}
+
+	.wpex-mr-auto {
+	    margin-right: auto
+	}
+
+	.wpex-last-mb-0>:last-child {
+	    margin-bottom: 0
+	}
+
+	.wpex-m-0 {
+	    margin: 0
+	}
+
+	.wpex-mr-10 {
+	    margin-right: 10px
+	}
+
+	.wpex-mr-20 {
+	    margin-right: 20px;
+	    display: inline-block;
+	}
+
+	.wpex-mt-20 {
+	    margin-top: 20px
+	}
+
+	.wpex-mr-25 {
+	    margin-right: 25px
+	}
+
+	.wpex-mb-25 {
+	    margin-bottom: 25px
+	}
+
+	.wpex-my-40 {
+	    margin-top: 40px;
+	    margin-bottom: 40px
+	}
+
+	.wpex-opacity-0,.wpex-hover-opacity-0:hover {
+	    opacity: 0
+	}
+
+	.wpex-opacity-60,.wpex-hover-opacity-60:hover {
+	    opacity: .6
+	}
+
+	.wpex-overflow-hidden {
+	    overflow: hidden
+	}
+
+	.wpex-p-0 {
+	    padding: 0
+	}
+
+	.wpex-p-15 {
+	    padding: 15px
+	}
+
+	.wpex-py-15 {
+	    padding-top: 15px;
+	    padding-bottom: 15px
+	}
+
+	.wpex-py-20 {
+	    padding-top: 20px;
+	    padding-bottom: 20px
+	}
+
+	.wpex-px-20 {
+	    padding-left: 20px;
+	    padding-right: 20px
+	}
+
+	.wpex-py-30 {
+	    padding-top: 30px;
+	    padding-bottom: 30px
+	}
+
+	.wpex-pt-40 {
+	    padding-top: 40px
+	}
+
+	.wpex-fixed {
+	    position: fixed
+	}
+
+	.wpex-relative {
+	    position: relative
+	}
+
+	.wpex-absolute {
+	    position: absolute
+	}
+
+	.wpex-inset-0 {
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0
+	}
+
+	.wpex-top-100 {
+	    top: 100%
+	}
+
+	.wpex-right-0 {
+	    right: 0
+	}
+
+	.wpex-bottom-0 {
+	    bottom: 0
+	}
+
+	.wpex-text-center {
+	    text-align: center
+	}
+
+	.wpex-text-initial {
+	    text-align: initial
+	}
+
+	.wpex-no-underline,.wpex-no-underline:link,.wpex-no-underline:hover,.wpex-no-underline:focus,.wpex-no-underline:active,.wpex-no-underline:visited,.wpex-hover-underline,.wpex-hover-line-through {
+	    text-decoration: none
+	}
+
+	.wpex-translate-Z-0 {
+	    transform: translateZ(0)
+	}
+
+	.wpex-transition-all {
+	    transition-property: all
+	}
+
+	[class*='wpex-transition-'] {
+	    transition-duration: 150ms
+	}
+
+	.wpex-duration-200 {
+	    transition-duration: 200ms
+	}
+
+	.wpex-invisible {
+	    visibility: hidden
+	}
+
+	.wpex-w-100 {
+	    width: 100%
+	}
+
+	.wpex-z-10 {
+	    z-index: 10
+	}
+
+	.wpex-z-99 {
+	    z-index: 99
+	}
+
+	.wpex-z-9999 {
+	    z-index: 9999
+	}
+
+	.wpex-z-10000 {
+	    z-index: 10000
+	}
+
+	@media (min-width: 640px) {
+	    .wpex-sm-hidden {
+	        display:none
+	    }
+
+	    .wpex-sm-block {
+	        display: block
+	    }
+
+	    .wpex-sm-inline-block {
+	        display: inline-block
+	    }
+
+	    .wpex-sm-inline {
+	        display: inline
+	    }
+
+	    .wpex-sm-flex {
+	        display: flex
+	    }
+
+	    .wpex-sm-inline-flex {
+	        display: inline-flex
+	    }
+
+	    .wpex-sm-visible {
+	        visibility: visible
+	    }
+
+	    .wpex-sm-invisible {
+	        visibility: hidden
+	    }
+
+	    .wpex-sm-text-center {
+	        text-align: center
+	    }
+
+	    .wpex-sm-text-left {
+	        text-align: left
+	    }
+
+	    .wpex-sm-text-right {
+	        text-align: right
+	    }
+
+	    .wpex-sm-text-initial {
+	        text-align: initial
+	    }
+
+	    .wpex-sm-float-none {
+	        float: none
+	    }
+
+	    .wpex-sm-float-left {
+	        float: left
+	    }
+
+	    .wpex-sm-float-right {
+	        float: right
+	    }
+
+	    .wpex-sm-float-center {
+	        float: none;
+	        margin-right: auto;
+	        margin-left: auto
+	    }
+
+	    .wpex-sm-items-stretch {
+	        align-items: stretch
+	    }
+
+	    .wpex-sm-items-start {
+	        align-items: flex-start
+	    }
+
+	    .wpex-sm-items-center {
+	        align-items: center
+	    }
+
+	    .wpex-sm-items-end {
+	        align-items: flex-end
+	    }
+
+	    .wpex-sm-items-baseline {
+	        align-items: baseline
+	    }
+
+	    .wpex-sm-justify-center {
+	        justify-content: center
+	    }
+
+	    .wpex-sm-justify-start {
+	        justify-content: flex-start
+	    }
+
+	    .wpex-sm-justify-end {
+	        justify-content: flex-end
+	    }
+
+	    .wpex-sm-justify-between {
+	        justify-content: space-between
+	    }
+
+	    .wpex-sm-justify-around {
+	        justify-content: space-around
+	    }
+
+	    .wpex-sm-flex-row {
+	        flex-direction: row
+	    }
+
+	    .wpex-sm-flex-row-reverse {
+	        flex-direction: row-reverse
+	    }
+
+	    .wpex-sm-flex-col {
+	        flex-direction: column
+	    }
+
+	    .wpex-sm-flex-col-reverse {
+	        flex-direction: column-reverse
+	    }
+
+	    .wpex-sm-flex-no-wrap {
+	        flex-wrap: nowrap
+	    }
+
+	    .wpex-sm-flex-wrap {
+	        flex-wrap: wrap
+	    }
+
+	    .wpex-sm-flex-wrap-reverse {
+	        flex-wrap: wrap-reverse
+	    }
+
+	    .wpex-sm-flex-shrink {
+	        flex-shrink: 1
+	    }
+
+	    .wpex-sm-flex-shrink-0 {
+	        flex-shrink: 0
+	    }
+
+	    .wpex-sm-flex-grow {
+	        flex-grow: 1
+	    }
+
+	    .wpex-sm-flex-grow-0 {
+	        flex-grow: 0
+	    }
+
+	    .wpex-sm-static {
+	        position: static
+	    }
+
+	    .wpex-sm-fixed {
+	        position: fixed
+	    }
+
+	    .wpex-sm-relative {
+	        position: relative
+	    }
+
+	    .wpex-sm-absolute {
+	        position: absolute
+	    }
+
+	    .wpex-sm-inset-0 {
+	        top: 0;
+	        right: 0;
+	        bottom: 0;
+	        left: 0
+	    }
+
+	    .wpex-sm-inset-y-0 {
+	        top: 0;
+	        bottom: 0
+	    }
+
+	    .wpex-sm-inset-x-0 {
+	        right: 0;
+	        left: 0
+	    }
+
+	    .wpex-sm-left-0 {
+	        left: 0
+	    }
+
+	    .wpex-sm-left-100 {
+	        left: 100%
+	    }
+
+	    .wpex-sm-top-0 {
+	        top: 0
+	    }
+
+	    .wpex-sm-top-50 {
+	        top: 50%
+	    }
+
+	    .wpex-sm-top-100 {
+	        top: 100%
+	    }
+
+	    .wpex-sm-right-0 {
+	        right: 0
+	    }
+
+	    .wpex-sm-right-100 {
+	        right: 100%
+	    }
+
+	    .wpex-sm-bottom-0 {
+	        bottom: 0
+	    }
+
+	    .wpex-sm-bottom-50 {
+	        bottom: 50%
+	    }
+
+	    .wpex-sm-bottom-100 {
+	        bottom: 100%
+	    }
+
+	    .wpex-sm-inset-auto {
+	        top: auto;
+	        right: auto;
+	        bottom: auto;
+	        left: auto
+	    }
+
+	    .wpex-sm-inset-y-auto {
+	        top: auto;
+	        bottom: auto
+	    }
+
+	    .wpex-sm-inset-x-auto {
+	        left: auto;
+	        right: auto
+	    }
+
+	    .wpex-sm-top-auto {
+	        top: auto
+	    }
+
+	    .wpex-sm-bottom-auto {
+	        bottom: auto
+	    }
+
+	    .wpex-sm-left-auto {
+	        left: auto
+	    }
+
+	    .wpex-sm-right-auto {
+	        right: auto
+	    }
+
+	    .wpex-sm-opacity-0 {
+	        opacity: 0
+	    }
+
+	    .wpex-sm-opacity-10 {
+	        opacity: .1
+	    }
+
+	    .wpex-sm-opacity-20 {
+	        opacity: .2
+	    }
+
+	    .wpex-sm-opacity-30 {
+	        opacity: .3
+	    }
+
+	    .wpex-sm-opacity-40 {
+	        opacity: .4
+	    }
+
+	    .wpex-sm-opacity-50 {
+	        opacity: .5
+	    }
+
+	    .wpex-sm-opacity-60 {
+	        opacity: .6
+	    }
+
+	    .wpex-sm-opacity-70 {
+	        opacity: .7
+	    }
+
+	    .wpex-sm-opacity-80 {
+	        opacity: .8
+	    }
+
+	    .wpex-sm-opacity-90 {
+	        opacity: .9
+	    }
+
+	    .wpex-sm-opacity-100 {
+	        opacity: 1
+	    }
+
+	    .wpex-sm-text-base {
+	        font-size: 1em
+	    }
+
+	    .wpex-sm-text-xs {
+	        font-size: var(--wpex-text-xs)
+	    }
+
+	    .wpex-sm-text-sm {
+	        font-size: var(--wpex-text-sm)
+	    }
+
+	    .wpex-sm-text-md {
+	        font-size: var(--wpex-text-md)
+	    }
+
+	    .wpex-sm-text-lg {
+	        font-size: var(--wpex-text-lg)
+	    }
+
+	    .wpex-sm-text-xl {
+	        font-size: var(--wpex-text-xl)
+	    }
+
+	    .wpex-sm-text-2xl {
+	        font-size: var(--wpex-text-2xl)
+	    }
+
+	    .wpex-sm-text-3xl {
+	        font-size: var(--wpex-text-3xl)
+	    }
+
+	    .wpex-sm-text-4xl {
+	        font-size: var(--wpex-text-4xl)
+	    }
+
+	    .wpex-sm-text-5xl {
+	        font-size: var(--wpex-text-5xl)
+	    }
+
+	    .wpex-sm-text-6xl {
+	        font-size: var(--wpex-text-6xl)
+	    }
+
+	    .wpex-sm-text-7xl {
+	        font-size: var(--wpex-text-7xl)
+	    }
+
+	    .wpex-sm-w-0 {
+	        width: 0
+	    }
+
+	    .wpex-sm-w-20 {
+	        width: 20%
+	    }
+
+	    .wpex-sm-w-25 {
+	        width: 25%
+	    }
+
+	    .wpex-sm-w-30 {
+	        width: 30%
+	    }
+
+	    .wpex-sm-w-33 {
+	        width: 33%
+	    }
+
+	    .wpex-sm-w-40 {
+	        width: 40%
+	    }
+
+	    .wpex-sm-w-50 {
+	        width: 50%
+	    }
+
+	    .wpex-sm-w-60 {
+	        width: 60%
+	    }
+
+	    .wpex-sm-w-67 {
+	        width: 67%
+	    }
+
+	    .wpex-sm-w-70 {
+	        width: 70%
+	    }
+
+	    .wpex-sm-w-75 {
+	        width: 75%
+	    }
+
+	    .wpex-sm-w-80 {
+	        width: 80%
+	    }
+
+	    .wpex-sm-w-100 {
+	        width: 100%
+	    }
+
+	    .wpex-sm-m-0 {
+	        margin: 0
+	    }
+
+	    .wpex-sm-p-0 {
+	        padding: 0
+	    }
+
+	    .wpex-sm-my-0 {
+	        margin-top: 0;
+	        margin-bottom: 0
+	    }
+
+	    .wpex-sm-py-0 {
+	        padding-top: 0;
+	        padding-bottom: 0
+	    }
+
+	    .wpex-sm-mx-0 {
+	        margin-left: 0;
+	        margin-right: 0
+	    }
+
+	    .wpex-sm-px-0 {
+	        padding-left: 0;
+	        padding-right: 0
+	    }
+
+	    .wpex-sm-ml-0 {
+	        margin-left: 0
+	    }
+
+	    .wpex-sm-pl-0 {
+	        padding-left: 0
+	    }
+
+	    .wpex-sm-mr-0 {
+	        margin-right: 0
+	    }
+
+	    .wpex-sm-pr-0 {
+	        padding-right: 0
+	    }
+
+	    .wpex-sm-mt-0 {
+	        margin-top: 0
+	    }
+
+	    .wpex-sm-pt-0 {
+	        padding-top: 0
+	    }
+
+	    .wpex-sm-mb-0 {
+	        margin-bottom: 0
+	    }
+
+	    .wpex-sm-pb-0 {
+	        padding-bottom: 0
+	    }
+
+	    .wpex-sm-m-5 {
+	        margin: 5px
+	    }
+
+	    .wpex-sm-p-5 {
+	        padding: 5px
+	    }
+
+	    .wpex-sm-my-5 {
+	        margin-top: 5px;
+	        margin-bottom: 5px
+	    }
+
+	    .wpex-sm-py-5 {
+	        padding-top: 5px;
+	        padding-bottom: 5px
+	    }
+
+	    .wpex-sm-mx-5 {
+	        margin-left: 5px;
+	        margin-right: 5px
+	    }
+
+	    .-wpex-sm-mx-5 {
+	        margin-left: -5px;
+	        margin-right: -5px
+	    }
+
+	    .wpex-sm-px-5 {
+	        padding-left: 5px;
+	        padding-right: 5px
+	    }
+
+	    .wpex-sm-ml-5 {
+	        margin-left: 5px
+	    }
+
+	    .-wpex-sm-ml-5 {
+	        margin-left: -5px
+	    }
+
+	    .wpex-sm-pl-5 {
+	        padding-left: 5px
+	    }
+
+	    .wpex-sm-mr-5 {
+	        margin-right: 5px
+	    }
+
+	    .-wpex-sm-mr-5 {
+	        margin-right: -5px
+	    }
+
+	    .wpex-sm-pr-5 {
+	        padding-right: 5px
+	    }
+
+	    .wpex-sm-mt-5 {
+	        margin-top: 5px
+	    }
+
+	    .-wpex-sm-mt-5 {
+	        margin-top: -5px
+	    }
+
+	    .wpex-sm-pt-5 {
+	        padding-top: 5px
+	    }
+
+	    .wpex-sm-mb-5 {
+	        margin-bottom: 5px
+	    }
+
+	    .-wpex-sm-mb-5 {
+	        margin-bottom: -5px
+	    }
+
+	    .wpex-sm-pb-5 {
+	        padding-bottom: 5px
+	    }
+
+	    .wpex-sm-m-10 {
+	        margin: 10px
+	    }
+
+	    .wpex-sm-p-10 {
+	        padding: 10px
+	    }
+
+	    .wpex-sm-my-10 {
+	        margin-top: 10px;
+	        margin-bottom: 10px
+	    }
+
+	    .wpex-sm-py-10 {
+	        padding-top: 10px;
+	        padding-bottom: 10px
+	    }
+
+	    .wpex-sm-mx-10 {
+	        margin-left: 10px;
+	        margin-right: 10px
+	    }
+
+	    .-wpex-sm-mx-10 {
+	        margin-left: -10px;
+	        margin-right: -10px
+	    }
+
+	    .wpex-sm-px-10 {
+	        padding-left: 10px;
+	        padding-right: 10px
+	    }
+
+	    .wpex-sm-ml-10 {
+	        margin-left: 10px
+	    }
+
+	    .-wpex-sm-ml-10 {
+	        margin-left: -10px
+	    }
+
+	    .wpex-sm-pl-10 {
+	        padding-left: 10px
+	    }
+
+	    .wpex-sm-mr-10 {
+	        margin-right: 10px
+	    }
+
+	    .-wpex-sm-mr-10 {
+	        margin-right: -10px
+	    }
+
+	    .wpex-sm-pr-10 {
+	        padding-right: 10px
+	    }
+
+	    .wpex-sm-mt-10 {
+	        margin-top: 10px
+	    }
+
+	    .-wpex-sm-mt-10 {
+	        margin-top: -10px
+	    }
+
+	    .wpex-sm-pt-10 {
+	        padding-top: 10px
+	    }
+
+	    .wpex-sm-mb-10 {
+	        margin-bottom: 10px
+	    }
+
+	    .-wpex-sm-mb-10 {
+	        margin-bottom: -10px
+	    }
+
+	    .wpex-sm-pb-10 {
+	        padding-bottom: 10px
+	    }
+
+	    .wpex-sm-m-15 {
+	        margin: 15px
+	    }
+
+	    .wpex-sm-p-15 {
+	        padding: 15px
+	    }
+
+	    .wpex-sm-my-15 {
+	        margin-top: 15px;
+	        margin-bottom: 15px
+	    }
+
+	    .wpex-sm-py-15 {
+	        padding-top: 15px;
+	        padding-bottom: 15px
+	    }
+
+	    .wpex-sm-mx-15 {
+	        margin-left: 15px;
+	        margin-right: 15px
+	    }
+
+	    .-wpex-sm-mx-15 {
+	        margin-left: -15px;
+	        margin-right: -15px
+	    }
+
+	    .wpex-sm-px-15 {
+	        padding-left: 15px;
+	        padding-right: 15px
+	    }
+
+	    .wpex-sm-ml-15 {
+	        margin-left: 15px
+	    }
+
+	    .-wpex-sm-ml-15 {
+	        margin-left: -15px
+	    }
+
+	    .wpex-sm-pl-15 {
+	        padding-left: 15px
+	    }
+
+	    .wpex-sm-mr-15 {
+	        margin-right: 15px
+	    }
+
+	    .-wpex-sm-mr-15 {
+	        margin-right: -15px
+	    }
+
+	    .wpex-sm-pr-15 {
+	        padding-right: 15px
+	    }
+
+	    .wpex-sm-mt-15 {
+	        margin-top: 15px
+	    }
+
+	    .-wpex-sm-mt-15 {
+	        margin-top: -15px
+	    }
+
+	    .wpex-sm-pt-15 {
+	        padding-top: 15px
+	    }
+
+	    .wpex-sm-mb-15 {
+	        margin-bottom: 15px
+	    }
+
+	    .-wpex-sm-mb-15 {
+	        margin-bottom: -15px
+	    }
+
+	    .wpex-sm-pb-15 {
+	        padding-bottom: 15px
+	    }
+
+	    .wpex-sm-m-20 {
+	        margin: 20px
+	    }
+
+	    .wpex-sm-p-20 {
+	        padding: 20px
+	    }
+
+	    .wpex-sm-my-20 {
+	        margin-top: 20px;
+	        margin-bottom: 20px
+	    }
+
+	    .wpex-sm-py-20 {
+	        padding-top: 20px;
+	        padding-bottom: 20px
+	    }
+
+	    .wpex-sm-mx-20 {
+	        margin-left: 20px;
+	        margin-right: 20px
+	    }
+
+	    .-wpex-sm-mx-20 {
+	        margin-left: -20px;
+	        margin-right: -20px
+	    }
+
+	    .wpex-sm-px-20 {
+	        padding-left: 20px;
+	        padding-right: 20px
+	    }
+
+	    .wpex-sm-ml-20 {
+	        margin-left: 20px
+	    }
+
+	    .-wpex-sm-ml-20 {
+	        margin-left: -20px
+	    }
+
+	    .wpex-sm-pl-20 {
+	        padding-left: 20px
+	    }
+
+	    .wpex-sm-mr-20 {
+	        margin-right: 20px
+	    }
+
+	    .-wpex-sm-mr-20 {
+	        margin-right: -20px
+	    }
+
+	    .wpex-sm-pr-20 {
+	        padding-right: 20px
+	    }
+
+	    .wpex-sm-mt-20 {
+	        margin-top: 20px
+	    }
+
+	    .-wpex-sm-mt-20 {
+	        margin-top: -20px
+	    }
+
+	    .wpex-sm-pt-20 {
+	        padding-top: 20px
+	    }
+
+	    .wpex-sm-mb-20 {
+	        margin-bottom: 20px
+	    }
+
+	    .-wpex-sm-mb-20 {
+	        margin-bottom: -20px
+	    }
+
+	    .wpex-sm-pb-20 {
+	        padding-bottom: 20px
+	    }
+
+	    .wpex-sm-m-25 {
+	        margin: 25px
+	    }
+
+	    .wpex-sm-p-25 {
+	        padding: 25px
+	    }
+
+	    .wpex-sm-my-25 {
+	        margin-top: 25px;
+	        margin-bottom: 25px
+	    }
+
+	    .wpex-sm-py-25 {
+	        padding-top: 25px;
+	        padding-bottom: 25px
+	    }
+
+	    .wpex-sm-mx-25 {
+	        margin-left: 25px;
+	        margin-right: 25px
+	    }
+
+	    .-wpex-sm-mx-25 {
+	        margin-left: -25px;
+	        margin-right: -25px
+	    }
+
+	    .wpex-sm-px-25 {
+	        padding-left: 25px;
+	        padding-right: 25px
+	    }
+
+	    .wpex-sm-ml-25 {
+	        margin-left: 25px
+	    }
+
+	    .-wpex-sm-ml-25 {
+	        margin-left: -25px
+	    }
+
+	    .wpex-sm-pl-25 {
+	        padding-left: 25px
+	    }
+
+	    .wpex-sm-mr-25 {
+	        margin-right: 25px
+	    }
+
+	    .-wpex-sm-mr-25 {
+	        margin-right: -25px
+	    }
+
+	    .wpex-sm-pr-25 {
+	        padding-right: 25px
+	    }
+
+	    .wpex-sm-mt-25 {
+	        margin-top: 25px
+	    }
+
+	    .-wpex-sm-mt-25 {
+	        margin-top: -25px
+	    }
+
+	    .wpex-sm-pt-25 {
+	        padding-top: 25px
+	    }
+
+	    .wpex-sm-mb-25 {
+	        margin-bottom: 25px
+	    }
+
+	    .-wpex-sm-mb-25 {
+	        margin-bottom: -25px
+	    }
+
+	    .wpex-sm-pb-25 {
+	        padding-bottom: 25px
+	    }
+
+	    .wpex-sm-m-30 {
+	        margin: 30px
+	    }
+
+	    .wpex-sm-p-30 {
+	        padding: 30px
+	    }
+
+	    .wpex-sm-my-30 {
+	        margin-top: 30px;
+	        margin-bottom: 30px
+	    }
+
+	    .wpex-sm-py-30 {
+	        padding-top: 30px;
+	        padding-bottom: 30px
+	    }
+
+	    .wpex-sm-mx-30 {
+	        margin-left: 30px;
+	        margin-right: 30px
+	    }
+
+	    .-wpex-sm-mx-30 {
+	        margin-left: -30px;
+	        margin-right: -30px
+	    }
+
+	    .wpex-sm-px-30 {
+	        padding-left: 30px;
+	        padding-right: 30px
+	    }
+
+	    .wpex-sm-ml-30 {
+	        margin-left: 30px
+	    }
+
+	    .-wpex-sm-ml-30 {
+	        margin-left: -30px
+	    }
+
+	    .wpex-sm-pl-30 {
+	        padding-left: 30px
+	    }
+
+	    .wpex-sm-mr-30 {
+	        margin-right: 30px
+	    }
+
+	    .-wpex-sm-mr-30 {
+	        margin-right: -30px
+	    }
+
+	    .wpex-sm-pr-30 {
+	        padding-right: 30px
+	    }
+
+	    .wpex-sm-mt-30 {
+	        margin-top: 30px
+	    }
+
+	    .-wpex-sm-mt-30 {
+	        margin-top: -30px
+	    }
+
+	    .wpex-sm-pt-30 {
+	        padding-top: 30px
+	    }
+
+	    .wpex-sm-mb-30 {
+	        margin-bottom: 30px
+	    }
+
+	    .-wpex-sm-mb-30 {
+	        margin-bottom: -30px
+	    }
+
+	    .wpex-sm-pb-30 {
+	        padding-bottom: 30px
+	    }
+
+	    .wpex-sm-m-40 {
+	        margin: 40px
+	    }
+
+	    .wpex-sm-p-40 {
+	        padding: 40px
+	    }
+
+	    .wpex-sm-my-40 {
+	        margin-top: 40px;
+	        margin-bottom: 40px
+	    }
+
+	    .wpex-sm-py-40 {
+	        padding-top: 40px;
+	        padding-bottom: 40px
+	    }
+
+	    .wpex-sm-mx-40 {
+	        margin-left: 40px;
+	        margin-right: 40px
+	    }
+
+	    .-wpex-sm-mx-40 {
+	        margin-left: -40px;
+	        margin-right: -40px
+	    }
+
+	    .wpex-sm-px-40 {
+	        padding-left: 40px;
+	        padding-right: 40px
+	    }
+
+	    .wpex-sm-ml-40 {
+	        margin-left: 40px
+	    }
+
+	    .-wpex-sm-ml-40 {
+	        margin-left: -40px
+	    }
+
+	    .wpex-sm-pl-40 {
+	        padding-left: 40px
+	    }
+
+	    .wpex-sm-mr-40 {
+	        margin-right: 40px
+	    }
+
+	    .-wpex-sm-mr-40 {
+	        margin-right: -40px
+	    }
+
+	    .wpex-sm-pr-40 {
+	        padding-right: 40px
+	    }
+
+	    .wpex-sm-mt-40 {
+	        margin-top: 40px
+	    }
+
+	    .-wpex-sm-mt-40 {
+	        margin-top: -40px
+	    }
+
+	    .wpex-sm-pt-40 {
+	        padding-top: 40px
+	    }
+
+	    .wpex-sm-mb-40 {
+	        margin-bottom: 40px
+	    }
+
+	    .-wpex-sm-mb-40 {
+	        margin-bottom: -40px
+	    }
+
+	    .wpex-sm-pb-40 {
+	        padding-bottom: 40px
+	    }
+
+	    .wpex-sm-m-50 {
+	        margin: 50px
+	    }
+
+	    .wpex-sm-p-50 {
+	        padding: 50px
+	    }
+
+	    .wpex-sm-my-50 {
+	        margin-top: 50px;
+	        margin-bottom: 50px
+	    }
+
+	    .wpex-sm-py-50 {
+	        padding-top: 50px;
+	        padding-bottom: 50px
+	    }
+
+	    .wpex-sm-mx-50 {
+	        margin-left: 50px;
+	        margin-right: 50px
+	    }
+
+	    .-wpex-sm-mx-50 {
+	        margin-left: -50px;
+	        margin-right: -50px
+	    }
+
+	    .wpex-sm-px-50 {
+	        padding-left: 50px;
+	        padding-right: 50px
+	    }
+
+	    .wpex-sm-ml-50 {
+	        margin-left: 50px
+	    }
+
+	    .-wpex-sm-ml-50 {
+	        margin-left: -50px
+	    }
+
+	    .wpex-sm-pl-50 {
+	        padding-left: 50px
+	    }
+
+	    .wpex-sm-mr-50 {
+	        margin-right: 50px
+	    }
+
+	    .-wpex-sm-mr-50 {
+	        margin-right: -50px
+	    }
+
+	    .wpex-sm-pr-50 {
+	        padding-right: 50px
+	    }
+
+	    .wpex-sm-mt-50 {
+	        margin-top: 50px
+	    }
+
+	    .-wpex-sm-mt-50 {
+	        margin-top: -50px
+	    }
+
+	    .wpex-sm-pt-50 {
+	        padding-top: 50px
+	    }
+
+	    .wpex-sm-mb-50 {
+	        margin-bottom: 50px
+	    }
+
+	    .-wpex-sm-mb-50 {
+	        margin-bottom: -50px
+	    }
+
+	    .wpex-sm-pb-50 {
+	        padding-bottom: 50px
+	    }
+
+	    .wpex-sm-grid-cols-1 {
+	        --wpex-grid-columns: 1
+	    }
+
+	    .wpex-sm-grid-cols-2 {
+	        --wpex-grid-columns: 2
+	    }
+
+	    .wpex-sm-grid-cols-3 {
+	        --wpex-grid-columns: 3
+	    }
+
+	    .wpex-sm-grid-cols-4 {
+	        --wpex-grid-columns: 4
+	    }
+
+	    .wpex-sm-grid-cols-5 {
+	        --wpex-grid-columns: 5
+	    }
+
+	    .wpex-sm-grid-cols-6 {
+	        --wpex-grid-columns: 6
+	    }
+
+	    .wpex-sm-grid-cols-7 {
+	        --wpex-grid-columns: 7
+	    }
+
+	    .wpex-sm-grid-cols-8 {
+	        --wpex-grid-columns: 8
+	    }
+
+	    .wpex-sm-grid-cols-9 {
+	        --wpex-grid-columns: 9
+	    }
+
+	    .wpex-sm-grid-cols-10 {
+	        --wpex-grid-columns: 10
+	    }
+
+	    .wpex-sm-grid-cols-11 {
+	        --wpex-grid-columns: 11
+	    }
+
+	    .wpex-sm-grid-cols-12 {
+	        --wpex-grid-columns: 12
+	    }
+
+	    .wpex-sm-gap-0 {
+	        gap: 0
+	    }
+
+	    .wpex-sm-gap-1 {
+	        gap: 1px
+	    }
+
+	    .wpex-sm-gap-5 {
+	        gap: 5px
+	    }
+
+	    .wpex-sm-gap-10 {
+	        gap: 10px
+	    }
+
+	    .wpex-sm-gap-15 {
+	        gap: 15px
+	    }
+
+	    .wpex-sm-gap-20 {
+	        gap: 20px
+	    }
+
+	    .wpex-sm-gap-25 {
+	        gap: 25px
+	    }
+
+	    .wpex-sm-gap-30 {
+	        gap: 30px
+	    }
+
+	    .wpex-sm-gap-35 {
+	        gap: 35px
+	    }
+
+	    .wpex-sm-gap-40 {
+	        gap: 40px
+	    }
+
+	    .wpex-sm-gap-50 {
+	        gap: 50px
+	    }
+
+	    .wpex-sm-gap-60 {
+	        gap: 60px
+	    }
+
+	    .wpex-sm-order-first {
+	        order: -9999
+	    }
+
+	    .wpex-sm-order-last {
+	        order: 9999
+	    }
+
+	    .wpex-sm-order-none {
+	        order: 0
+	    }
+
+	    .wpex-sm-order-1 {
+	        order: 1
+	    }
+
+	    .wpex-sm-order-2 {
+	        order: 2
+	    }
+
+	    .wpex-sm-order-3 {
+	        order: 3
+	    }
+
+	    .wpex-sm-order-4 {
+	        order: 4
+	    }
+
+	    .wpex-sm-order-5 {
+	        order: 5
+	    }
+
+	    .wpex-sm-order-6 {
+	        order: 6
+	    }
+
+	    .wpex-sm-order-7 {
+	        order: 7
+	    }
+
+	    .wpex-sm-order-8 {
+	        order: 8
+	    }
+
+	    .wpex-sm-order-9 {
+	        order: 9
+	    }
+
+	    .wpex-sm-order-10 {
+	        order: 10
+	    }
+
+	    .wpex-sm-order-11 {
+	        order: 11
+	    }
+
+	    .wpex-sm-order-12 {
+	        order: 12
+	    }
+	}
+
+	@media only screen and (min-width: 768px) {
+	    .wpex-md-hidden {
+	        display:none
+	    }
+
+	    .wpex-md-block {
+	        display: block
+	    }
+
+	    .wpex-md-inline-block {
+	        display: inline-block
+	    }
+
+	    .wpex-md-inline {
+	        display: inline
+	    }
+
+	    .wpex-md-flex {
+	        display: flex
+	    }
+
+	    .wpex-md-inline-flex {
+	        display: inline-flex
+	    }
+
+	    .wpex-md-visible {
+	        visibility: visible
+	    }
+
+	    .wpex-md-invisible {
+	        visibility: hidden
+	    }
+
+	    .wpex-md-text-center {
+	        text-align: center
+	    }
+
+	    .wpex-md-text-left {
+	        text-align: left
+	    }
+
+	    .wpex-md-text-right {
+	        text-align: right
+	    }
+
+	    .wpex-md-text-initial {
+	        text-align: initial
+	    }
+
+	    .wpex-md-float-none {
+	        float: none
+	    }
+
+	    .wpex-md-float-left {
+	        float: left
+	    }
+
+	    .wpex-md-float-right {
+	        float: right
+	    }
+
+	    .wpex-md-float-center {
+	        float: none;
+	        margin-right: auto;
+	        margin-left: auto
+	    }
+
+	    .wpex-md-items-stretch {
+	        align-items: stretch
+	    }
+
+	    .wpex-md-items-start {
+	        align-items: flex-start
+	    }
+
+	    .wpex-md-items-center {
+	        align-items: center
+	    }
+
+	    .wpex-md-items-end {
+	        align-items: flex-end
+	    }
+
+	    .wpex-md-items-baseline {
+	        align-items: baseline
+	    }
+
+	    .wpex-md-flex-row {
+	        flex-direction: row
+	    }
+
+	    .wpex-md-flex-row-reverse {
+	        flex-direction: row-reverse
+	    }
+
+	    .wpex-md-flex-col {
+	        flex-direction: column
+	    }
+
+	    .wpex-md-flex-col-reverse {
+	        flex-direction: column-reverse
+	    }
+
+	    .wpex-md-flex-no-wrap {
+	        flex-wrap: nowrap
+	    }
+
+	    .wpex-md-flex-wrap {
+	        flex-wrap: wrap
+	    }
+
+	    .wpex-md-flex-wrap-reverse {
+	        flex-wrap: wrap-reverse
+	    }
+
+	    .wpex-md-flex-shrink {
+	        flex-shrink: 1
+	    }
+
+	    .wpex-md-flex-shrink-0 {
+	        flex-shrink: 0
+	    }
+
+	    .wpex-md-flex-grow {
+	        flex-grow: 1
+	    }
+
+	    .wpex-md-flex-grow-0 {
+	        flex-grow: 0
+	    }
+
+	    .wpex-md-justify-center {
+	        justify-content: center
+	    }
+
+	    .wpex-md-justify-start {
+	        justify-content: flex-start
+	    }
+
+	    .wpex-md-justify-end {
+	        justify-content: flex-end
+	    }
+
+	    .wpex-md-justify-between {
+	        justify-content: space-between
+	    }
+
+	    .wpex-md-justify-around {
+	        justify-content: space-around
+	    }
+
+	    .wpex-md-static {
+	        position: static
+	    }
+
+	    .wpex-md-fixed {
+	        position: fixed
+	    }
+
+	    .wpex-md-relative {
+	        position: relative
+	    }
+
+	    .wpex-md-absolute {
+	        position: absolute
+	    }
+
+	    .wpex-md-inset-0 {
+	        top: 0;
+	        right: 0;
+	        bottom: 0;
+	        left: 0
+	    }
+
+	    .wpex-md-inset-y-0 {
+	        top: 0;
+	        bottom: 0
+	    }
+
+	    .wpex-md-inset-x-0 {
+	        right: 0;
+	        left: 0
+	    }
+
+	    .wpex-md-left-0 {
+	        left: 0
+	    }
+
+	    .wpex-md-left-100 {
+	        left: 100%
+	    }
+
+	    .wpex-md-top-0 {
+	        top: 0
+	    }
+
+	    .wpex-md-top-50 {
+	        top: 50%
+	    }
+
+	    .wpex-md-top-100 {
+	        top: 100%
+	    }
+
+	    .wpex-md-right-0 {
+	        right: 0
+	    }
+
+	    .wpex-md-right-100 {
+	        right: 100%
+	    }
+
+	    .wpex-md-bottom-0 {
+	        bottom: 0
+	    }
+
+	    .wpex-md-bottom-50 {
+	        bottom: 50%
+	    }
+
+	    .wpex-md-bottom-100 {
+	        bottom: 100%
+	    }
+
+	    .wpex-md-inset-auto {
+	        top: auto;
+	        right: auto;
+	        bottom: auto;
+	        left: auto
+	    }
+
+	    .wpex-md-inset-y-auto {
+	        top: auto;
+	        bottom: auto
+	    }
+
+	    .wpex-md-inset-x-auto {
+	        left: auto;
+	        right: auto
+	    }
+
+	    .wpex-md-top-auto {
+	        top: auto
+	    }
+
+	    .wpex-md-bottom-auto {
+	        bottom: auto
+	    }
+
+	    .wpex-md-left-auto {
+	        left: auto
+	    }
+
+	    .wpex-md-right-auto {
+	        right: auto
+	    }
+
+	    .wpex-md-opacity-0 {
+	        opacity: 0
+	    }
+
+	    .wpex-md-opacity-10 {
+	        opacity: .1
+	    }
+
+	    .wpex-md-opacity-20 {
+	        opacity: .2
+	    }
+
+	    .wpex-md-opacity-30 {
+	        opacity: .3
+	    }
+
+	    .wpex-md-opacity-40 {
+	        opacity: .4
+	    }
+
+	    .wpex-md-opacity-50 {
+	        opacity: .5
+	    }
+
+	    .wpex-md-opacity-60 {
+	        opacity: .6
+	    }
+
+	    .wpex-md-opacity-70 {
+	        opacity: .7
+	    }
+
+	    .wpex-md-opacity-80 {
+	        opacity: .8
+	    }
+
+	    .wpex-md-opacity-90 {
+	        opacity: .9
+	    }
+
+	    .wpex-md-opacity-100 {
+	        opacity: 1
+	    }
+
+	    .wpex-md-text-base {
+	        font-size: 1em
+	    }
+
+	    .wpex-md-text-xs {
+	        font-size: var(--wpex-text-xs)
+	    }
+
+	    .wpex-md-text-sm {
+	        font-size: var(--wpex-text-sm)
+	    }
+
+	    .wpex-md-text-md {
+	        font-size: var(--wpex-text-md)
+	    }
+
+	    .wpex-md-text-lg {
+	        font-size: var(--wpex-text-lg)
+	    }
+
+	    .wpex-md-text-xl {
+	        font-size: var(--wpex-text-xl)
+	    }
+
+	    .wpex-md-text-2xl {
+	        font-size: var(--wpex-text-2xl)
+	    }
+
+	    .wpex-md-text-3xl {
+	        font-size: var(--wpex-text-3xl)
+	    }
+
+	    .wpex-md-text-4xl {
+	        font-size: var(--wpex-text-4xl)
+	    }
+
+	    .wpex-md-text-5xl {
+	        font-size: var(--wpex-text-5xl)
+	    }
+
+	    .wpex-md-text-6xl {
+	        font-size: var(--wpex-text-6xl)
+	    }
+
+	    .wpex-md-text-7xl {
+	        font-size: var(--wpex-text-7xl)
+	    }
+
+	    .wpex-md-w-0 {
+	        width: 0
+	    }
+
+	    .wpex-md-w-20 {
+	        width: 20%
+	    }
+
+	    .wpex-md-w-25 {
+	        width: 25%
+	    }
+
+	    .wpex-md-w-30 {
+	        width: 30%
+	    }
+
+	    .wpex-md-w-33 {
+	        width: 33%
+	    }
+
+	    .wpex-md-w-40 {
+	        width: 40%
+	    }
+
+	    .wpex-md-w-50 {
+	        width: 50%
+	    }
+
+	    .wpex-md-w-60 {
+	        width: 60%
+	    }
+
+	    .wpex-md-w-67 {
+	        width: 67%
+	    }
+
+	    .wpex-md-w-70 {
+	        width: 70%
+	    }
+
+	    .wpex-md-w-75 {
+	        width: 75%
+	    }
+
+	    .wpex-md-w-80 {
+	        width: 80%
+	    }
+
+	    .wpex-md-w-100 {
+	        width: 100%
+	    }
+
+	    .wpex-md-m-0 {
+	        margin: 0
+	    }
+
+	    .wpex-md-p-0 {
+	        padding: 0
+	    }
+
+	    .wpex-md-my-0 {
+	        margin-top: 0;
+	        margin-bottom: 0
+	    }
+
+	    .wpex-md-py-0 {
+	        padding-top: 0;
+	        padding-bottom: 0
+	    }
+
+	    .wpex-md-mx-0 {
+	        margin-left: 0;
+	        margin-right: 0
+	    }
+
+	    .wpex-md-px-0 {
+	        padding-left: 0;
+	        padding-right: 0
+	    }
+
+	    .wpex-md-ml-0 {
+	        margin-left: 0
+	    }
+
+	    .wpex-md-pl-0 {
+	        padding-left: 0
+	    }
+
+	    .wpex-md-mr-0 {
+	        margin-right: 0
+	    }
+
+	    .wpex-md-pr-0 {
+	        padding-right: 0
+	    }
+
+	    .wpex-md-mt-0 {
+	        margin-top: 0
+	    }
+
+	    .wpex-md-pt-0 {
+	        padding-top: 0
+	    }
+
+	    .wpex-md-mb-0 {
+	        margin-bottom: 0
+	    }
+
+	    .wpex-md-pb-0 {
+	        padding-bottom: 0
+	    }
+
+	    .wpex-md-m-5 {
+	        margin: 5px
+	    }
+
+	    .wpex-md-p-5 {
+	        padding: 5px
+	    }
+
+	    .wpex-md-my-5 {
+	        margin-top: 5px;
+	        margin-bottom: 5px
+	    }
+
+	    .wpex-md-py-5 {
+	        padding-top: 5px;
+	        padding-bottom: 5px
+	    }
+
+	    .wpex-md-mx-5 {
+	        margin-left: 5px;
+	        margin-right: 5px
+	    }
+
+	    .-wpex-md-mx-5 {
+	        margin-left: -5px;
+	        margin-right: -5px
+	    }
+
+	    .wpex-md-px-5 {
+	        padding-left: 5px;
+	        padding-right: 5px
+	    }
+
+	    .wpex-md-ml-5 {
+	        margin-left: 5px
+	    }
+
+	    .-wpex-md-ml-5 {
+	        margin-left: -5px
+	    }
+
+	    .wpex-md-pl-5 {
+	        padding-left: 5px
+	    }
+
+	    .wpex-md-mr-5 {
+	        margin-right: 5px
+	    }
+
+	    .-wpex-md-mr-5 {
+	        margin-right: -5px
+	    }
+
+	    .wpex-md-pr-5 {
+	        padding-right: 5px
+	    }
+
+	    .wpex-md-mt-5 {
+	        margin-top: 5px
+	    }
+
+	    .-wpex-md-mt-5 {
+	        margin-top: -5px
+	    }
+
+	    .wpex-md-pt-5 {
+	        padding-top: 5px
+	    }
+
+	    .wpex-md-mb-5 {
+	        margin-bottom: 5px
+	    }
+
+	    .-wpex-md-mb-5 {
+	        margin-bottom: -5px
+	    }
+
+	    .wpex-md-pb-5 {
+	        padding-bottom: 5px
+	    }
+
+	    .wpex-md-m-10 {
+	        margin: 10px
+	    }
+
+	    .wpex-md-p-10 {
+	        padding: 10px
+	    }
+
+	    .wpex-md-my-10 {
+	        margin-top: 10px;
+	        margin-bottom: 10px
+	    }
+
+	    .wpex-md-py-10 {
+	        padding-top: 10px;
+	        padding-bottom: 10px
+	    }
+
+	    .wpex-md-mx-10 {
+	        margin-left: 10px;
+	        margin-right: 10px
+	    }
+
+	    .-wpex-md-mx-10 {
+	        margin-left: -10px;
+	        margin-right: -10px
+	    }
+
+	    .wpex-md-px-10 {
+	        padding-left: 10px;
+	        padding-right: 10px
+	    }
+
+	    .wpex-md-ml-10 {
+	        margin-left: 10px
+	    }
+
+	    .-wpex-md-ml-10 {
+	        margin-left: -10px
+	    }
+
+	    .wpex-md-pl-10 {
+	        padding-left: 10px
+	    }
+
+	    .wpex-md-mr-10 {
+	        margin-right: 10px
+	    }
+
+	    .-wpex-md-mr-10 {
+	        margin-right: -10px
+	    }
+
+	    .wpex-md-pr-10 {
+	        padding-right: 10px
+	    }
+
+	    .wpex-md-mt-10 {
+	        margin-top: 10px
+	    }
+
+	    .-wpex-md-mt-10 {
+	        margin-top: -10px
+	    }
+
+	    .wpex-md-pt-10 {
+	        padding-top: 10px
+	    }
+
+	    .wpex-md-mb-10 {
+	        margin-bottom: 10px
+	    }
+
+	    .-wpex-md-mb-10 {
+	        margin-bottom: -10px
+	    }
+
+	    .wpex-md-pb-10 {
+	        padding-bottom: 10px
+	    }
+
+	    .wpex-md-m-15 {
+	        margin: 15px
+	    }
+
+	    .wpex-md-p-15 {
+	        padding: 15px
+	    }
+
+	    .wpex-md-my-15 {
+	        margin-top: 15px;
+	        margin-bottom: 15px
+	    }
+
+	    .wpex-md-py-15 {
+	        padding-top: 15px;
+	        padding-bottom: 15px
+	    }
+
+	    .wpex-md-mx-15 {
+	        margin-left: 15px;
+	        margin-right: 15px
+	    }
+
+	    .-wpex-md-mx-15 {
+	        margin-left: -15px;
+	        margin-right: -15px
+	    }
+
+	    .wpex-md-px-15 {
+	        padding-left: 15px;
+	        padding-right: 15px
+	    }
+
+	    .wpex-md-ml-15 {
+	        margin-left: 15px
+	    }
+
+	    .-wpex-md-ml-15 {
+	        margin-left: -15px
+	    }
+
+	    .wpex-md-pl-15 {
+	        padding-left: 15px
+	    }
+
+	    .wpex-md-mr-15 {
+	        margin-right: 15px
+	    }
+
+	    .-wpex-md-mr-15 {
+	        margin-right: -15px
+	    }
+
+	    .wpex-md-pr-15 {
+	        padding-right: 15px
+	    }
+
+	    .wpex-md-mt-15 {
+	        margin-top: 15px
+	    }
+
+	    .-wpex-md-mt-15 {
+	        margin-top: -15px
+	    }
+
+	    .wpex-md-pt-15 {
+	        padding-top: 15px
+	    }
+
+	    .wpex-md-mb-15 {
+	        margin-bottom: 15px
+	    }
+
+	    .-wpex-md-mb-15 {
+	        margin-bottom: -15px
+	    }
+
+	    .wpex-md-pb-15 {
+	        padding-bottom: 15px
+	    }
+
+	    .wpex-md-m-20 {
+	        margin: 20px
+	    }
+
+	    .wpex-md-p-20 {
+	        padding: 20px
+	    }
+
+	    .wpex-md-my-20 {
+	        margin-top: 20px;
+	        margin-bottom: 20px
+	    }
+
+	    .wpex-md-py-20 {
+	        padding-top: 20px;
+	        padding-bottom: 20px
+	    }
+
+	    .wpex-md-mx-20 {
+	        margin-left: 20px;
+	        margin-right: 20px
+	    }
+
+	    .-wpex-md-mx-20 {
+	        margin-left: -20px;
+	        margin-right: -20px
+	    }
+
+	    .wpex-md-px-20 {
+	        padding-left: 20px;
+	        padding-right: 20px
+	    }
+
+	    .wpex-md-ml-20 {
+	        margin-left: 20px
+	    }
+
+	    .-wpex-md-ml-20 {
+	        margin-left: -20px
+	    }
+
+	    .wpex-md-pl-20 {
+	        padding-left: 20px
+	    }
+
+	    .wpex-md-mr-20 {
+	        margin-right: 20px
+	    }
+
+	    .-wpex-md-mr-20 {
+	        margin-right: -20px
+	    }
+
+	    .wpex-md-pr-20 {
+	        padding-right: 20px
+	    }
+
+	    .wpex-md-mt-20 {
+	        margin-top: 20px
+	    }
+
+	    .-wpex-md-mt-20 {
+	        margin-top: -20px
+	    }
+
+	    .wpex-md-pt-20 {
+	        padding-top: 20px
+	    }
+
+	    .wpex-md-mb-20 {
+	        margin-bottom: 20px
+	    }
+
+	    .-wpex-md-mb-20 {
+	        margin-bottom: -20px
+	    }
+
+	    .wpex-md-pb-20 {
+	        padding-bottom: 20px
+	    }
+
+	    .wpex-md-m-25 {
+	        margin: 25px
+	    }
+
+	    .wpex-md-p-25 {
+	        padding: 25px
+	    }
+
+	    .wpex-md-my-25 {
+	        margin-top: 25px;
+	        margin-bottom: 25px
+	    }
+
+	    .wpex-md-py-25 {
+	        padding-top: 25px;
+	        padding-bottom: 25px
+	    }
+
+	    .wpex-md-mx-25 {
+	        margin-left: 25px;
+	        margin-right: 25px
+	    }
+
+	    .-wpex-md-mx-25 {
+	        margin-left: -25px;
+	        margin-right: -25px
+	    }
+
+	    .wpex-md-px-25 {
+	        padding-left: 25px;
+	        padding-right: 25px
+	    }
+
+	    .wpex-md-ml-25 {
+	        margin-left: 25px
+	    }
+
+	    .-wpex-md-ml-25 {
+	        margin-left: -25px
+	    }
+
+	    .wpex-md-pl-25 {
+	        padding-left: 25px
+	    }
+
+	    .wpex-md-mr-25 {
+	        margin-right: 25px
+	    }
+
+	    .-wpex-md-mr-25 {
+	        margin-right: -25px
+	    }
+
+	    .wpex-md-pr-25 {
+	        padding-right: 25px
+	    }
+
+	    .wpex-md-mt-25 {
+	        margin-top: 25px
+	    }
+
+	    .-wpex-md-mt-25 {
+	        margin-top: -25px
+	    }
+
+	    .wpex-md-pt-25 {
+	        padding-top: 25px
+	    }
+
+	    .wpex-md-mb-25 {
+	        margin-bottom: 25px
+	    }
+
+	    .-wpex-md-mb-25 {
+	        margin-bottom: -25px
+	    }
+
+	    .wpex-md-pb-25 {
+	        padding-bottom: 25px
+	    }
+
+	    .wpex-md-m-30 {
+	        margin: 30px
+	    }
+
+	    .wpex-md-p-30 {
+	        padding: 30px
+	    }
+
+	    .wpex-md-my-30 {
+	        margin-top: 30px;
+	        margin-bottom: 30px
+	    }
+
+	    .wpex-md-py-30 {
+	        padding-top: 30px;
+	        padding-bottom: 30px
+	    }
+
+	    .wpex-md-mx-30 {
+	        margin-left: 30px;
+	        margin-right: 30px
+	    }
+
+	    .-wpex-md-mx-30 {
+	        margin-left: -30px;
+	        margin-right: -30px
+	    }
+
+	    .wpex-md-px-30 {
+	        padding-left: 30px;
+	        padding-right: 30px
+	    }
+
+	    .wpex-md-ml-30 {
+	        margin-left: 30px
+	    }
+
+	    .-wpex-md-ml-30 {
+	        margin-left: -30px
+	    }
+
+	    .wpex-md-pl-30 {
+	        padding-left: 30px
+	    }
+
+	    .wpex-md-mr-30 {
+	        margin-right: 30px
+	    }
+
+	    .-wpex-md-mr-30 {
+	        margin-right: -30px
+	    }
+
+	    .wpex-md-pr-30 {
+	        padding-right: 30px
+	    }
+
+	    .wpex-md-mt-30 {
+	        margin-top: 30px
+	    }
+
+	    .-wpex-md-mt-30 {
+	        margin-top: -30px
+	    }
+
+	    .wpex-md-pt-30 {
+	        padding-top: 30px
+	    }
+
+	    .wpex-md-mb-30 {
+	        margin-bottom: 30px
+	    }
+
+	    .-wpex-md-mb-30 {
+	        margin-bottom: -30px
+	    }
+
+	    .wpex-md-pb-30 {
+	        padding-bottom: 30px
+	    }
+
+	    .wpex-md-m-40 {
+	        margin: 40px
+	    }
+
+	    .wpex-md-p-40 {
+	        padding: 40px
+	    }
+
+	    .wpex-md-my-40 {
+	        margin-top: 40px;
+	        margin-bottom: 40px
+	    }
+
+	    .wpex-md-py-40 {
+	        padding-top: 40px;
+	        padding-bottom: 40px
+	    }
+
+	    .wpex-md-mx-40 {
+	        margin-left: 40px;
+	        margin-right: 40px
+	    }
+
+	    .-wpex-md-mx-40 {
+	        margin-left: -40px;
+	        margin-right: -40px
+	    }
+
+	    .wpex-md-px-40 {
+	        padding-left: 40px;
+	        padding-right: 40px
+	    }
+
+	    .wpex-md-ml-40 {
+	        margin-left: 40px
+	    }
+
+	    .-wpex-md-ml-40 {
+	        margin-left: -40px
+	    }
+
+	    .wpex-md-pl-40 {
+	        padding-left: 40px
+	    }
+
+	    .wpex-md-mr-40 {
+	        margin-right: 40px
+	    }
+
+	    .-wpex-md-mr-40 {
+	        margin-right: -40px
+	    }
+
+	    .wpex-md-pr-40 {
+	        padding-right: 40px
+	    }
+
+	    .wpex-md-mt-40 {
+	        margin-top: 40px
+	    }
+
+	    .-wpex-md-mt-40 {
+	        margin-top: -40px
+	    }
+
+	    .wpex-md-pt-40 {
+	        padding-top: 40px
+	    }
+
+	    .wpex-md-mb-40 {
+	        margin-bottom: 40px
+	    }
+
+	    .-wpex-md-mb-40 {
+	        margin-bottom: -40px
+	    }
+
+	    .wpex-md-pb-40 {
+	        padding-bottom: 40px
+	    }
+
+	    .wpex-md-m-50 {
+	        margin: 50px
+	    }
+
+	    .wpex-md-p-50 {
+	        padding: 50px
+	    }
+
+	    .wpex-md-my-50 {
+	        margin-top: 50px;
+	        margin-bottom: 50px
+	    }
+
+	    .wpex-md-py-50 {
+	        padding-top: 50px;
+	        padding-bottom: 50px
+	    }
+
+	    .wpex-md-mx-50 {
+	        margin-left: 50px;
+	        margin-right: 50px
+	    }
+
+	    .-wpex-md-mx-50 {
+	        margin-left: -50px;
+	        margin-right: -50px
+	    }
+
+	    .wpex-md-px-50 {
+	        padding-left: 50px;
+	        padding-right: 50px
+	    }
+
+	    .wpex-md-ml-50 {
+	        margin-left: 50px
+	    }
+
+	    .-wpex-md-ml-50 {
+	        margin-left: -50px
+	    }
+
+	    .wpex-md-pl-50 {
+	        padding-left: 50px
+	    }
+
+	    .wpex-md-mr-50 {
+	        margin-right: 50px
+	    }
+
+	    .-wpex-md-mr-50 {
+	        margin-right: -50px
+	    }
+
+	    .wpex-md-pr-50 {
+	        padding-right: 50px
+	    }
+
+	    .wpex-md-mt-50 {
+	        margin-top: 50px
+	    }
+
+	    .-wpex-md-mt-50 {
+	        margin-top: -50px
+	    }
+
+	    .wpex-md-pt-50 {
+	        padding-top: 50px
+	    }
+
+	    .wpex-md-mb-50 {
+	        margin-bottom: 50px
+	    }
+
+	    .-wpex-md-mb-50 {
+	        margin-bottom: -50px
+	    }
+
+	    .wpex-md-pb-50 {
+	        padding-bottom: 50px
+	    }
+
+	    .wpex-md-grid-cols-1 {
+	        --wpex-grid-columns: 1
+	    }
+
+	    .wpex-md-grid-cols-2 {
+	        --wpex-grid-columns: 2
+	    }
+
+	    .wpex-md-grid-cols-3 {
+	        --wpex-grid-columns: 3
+	    }
+
+	    .wpex-md-grid-cols-4 {
+	        --wpex-grid-columns: 4
+	    }
+
+	    .wpex-md-grid-cols-5 {
+	        --wpex-grid-columns: 5
+	    }
+
+	    .wpex-md-grid-cols-6 {
+	        --wpex-grid-columns: 6
+	    }
+
+	    .wpex-md-grid-cols-7 {
+	        --wpex-grid-columns: 7
+	    }
+
+	    .wpex-md-grid-cols-8 {
+	        --wpex-grid-columns: 8
+	    }
+
+	    .wpex-md-grid-cols-9 {
+	        --wpex-grid-columns: 9
+	    }
+
+	    .wpex-md-grid-cols-10 {
+	        --wpex-grid-columns: 10
+	    }
+
+	    .wpex-md-grid-cols-11 {
+	        --wpex-grid-columns: 11
+	    }
+
+	    .wpex-md-grid-cols-12 {
+	        --wpex-grid-columns: 12
+	    }
+
+	    .wpex-md-gap-0 {
+	        gap: 0
+	    }
+
+	    .wpex-md-gap-1 {
+	        gap: 1px
+	    }
+
+	    .wpex-md-gap-5 {
+	        gap: 5px
+	    }
+
+	    .wpex-md-gap-10 {
+	        gap: 10px
+	    }
+
+	    .wpex-md-gap-15 {
+	        gap: 15px
+	    }
+
+	    .wpex-md-gap-20 {
+	        gap: 20px
+	    }
+
+	    .wpex-md-gap-25 {
+	        gap: 25px
+	    }
+
+	    .wpex-md-gap-30 {
+	        gap: 30px
+	    }
+
+	    .wpex-md-gap-35 {
+	        gap: 35px
+	    }
+
+	    .wpex-md-gap-40 {
+	        gap: 40px
+	    }
+
+	    .wpex-md-gap-50 {
+	        gap: 50px
+	    }
+
+	    .wpex-md-gap-60 {
+	        gap: 60px
+	    }
+
+	    .wpex-md-order-first {
+	        order: -9999
+	    }
+
+	    .wpex-md-order-last {
+	        order: 9999
+	    }
+
+	    .wpex-md-order-none {
+	        order: 0
+	    }
+
+	    .wpex-md-order-1 {
+	        order: 1
+	    }
+
+	    .wpex-md-order-2 {
+	        order: 2
+	    }
+
+	    .wpex-md-order-3 {
+	        order: 3
+	    }
+
+	    .wpex-md-order-4 {
+	        order: 4
+	    }
+
+	    .wpex-md-order-5 {
+	        order: 5
+	    }
+
+	    .wpex-md-order-6 {
+	        order: 6
+	    }
+
+	    .wpex-md-order-7 {
+	        order: 7
+	    }
+
+	    .wpex-md-order-8 {
+	        order: 8
+	    }
+
+	    .wpex-md-order-9 {
+	        order: 9
+	    }
+
+	    .wpex-md-order-10 {
+	        order: 10
+	    }
+
+	    .wpex-md-order-11 {
+	        order: 11
+	    }
+
+	    .wpex-md-order-12 {
+	        order: 12
+	    }
+	}
+/* End Total's utilized CSS from style.css, per the Chrome dev tools coverage tool   */
+
+
+
+
+.sub-menu{
+	position: absolute;
+    right: 265px;
+    opacity: 0;
+    pointer-events: none;
+    transition:all .3s ease;
+}
+
+#menu-item-993:hover .sub-menu{
+	    opacity: 1;
+    pointer-events: all;
+}
+
+.menu-item::marker{
+	content:'';
+}
+
+.sub-menu .menu-item:last-child {
+    border-bottom: none;
+}
+
+
+
