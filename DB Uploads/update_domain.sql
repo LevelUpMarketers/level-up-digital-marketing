@@ -1,8 +1,8 @@
 -- Safely update domain references without breaking serialized data
--- Update site URL and home options
-UPDATE wp_9e73ifu2ty_options
-SET option_value = 'https://levelupmarketers.com'
-WHERE option_name IN ('siteurl','home');
+-- NOTE: We no longer update the 'siteurl' and 'home' options here to avoid
+-- unintentionally redirecting a local environment to the live domain.
+-- If you need to change those values, run the following manually:
+-- UPDATE wp_9e73ifu2ty_options SET option_value = 'https://levelupmarketers.com' WHERE option_name IN ('siteurl','home');
 
 -- Update administrator email
 UPDATE wp_9e73ifu2ty_options
