@@ -8,7 +8,7 @@ SET @replace = 'levelupmarketers';
 -- wp_options (skip siteurl and home)
 UPDATE `wp_9e73ifu2ty_options`
 SET `option_value` = REPLACE(`option_value`, @search, @replace)
-WHERE `option_name` NOT IN ('siteurl','home')
+WHERE `option_name` NOT IN ('siteurl','home','theme_mods_total-child-theme','theme_mods_Total')
   AND `option_value` LIKE CONCAT('%', @search, '%');
 
 -- wp_posts content and excerpts
@@ -52,3 +52,6 @@ WHERE `comment_content` LIKE CONCAT('%', @search, '%');
 UPDATE `wp_9e73ifu2ty_comments`
 SET `comment_author_email` = REPLACE(`comment_author_email`, @search, @replace)
 WHERE `comment_author_email` LIKE CONCAT('%', @search, '%');
+
+-- Restore header and footer settings
+SOURCE fix_theme_mods.sql;
