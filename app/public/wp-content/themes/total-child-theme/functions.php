@@ -164,7 +164,7 @@ function sitewide_add_structure_to_head() {
               "closes": "00:00"
             }
           ],
-        "email": "contact@leveluprichmond.com",
+        "email": "contact@levelupmarketers.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1011 E Main St suite 222",
