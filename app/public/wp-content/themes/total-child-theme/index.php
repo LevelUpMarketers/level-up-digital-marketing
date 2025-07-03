@@ -215,10 +215,11 @@ get_header(); ?>
 		      <p class="lur-expertise-paragraph-text" style="color:#013a51;">We understand that searching for the right partner to help with your Digital Marketing needs can be it\'s own part-time job! That\'s why we strive to make things as straight-forward and simple for our clients as possible. Do you have 5 minutes to decide if we\'re that right partner? That\'s all it takes. <a class="text-link" href="tel:8044898188">Give us a call at (804) 489-8188</a>.</p>
 		      <div class="lur-expertise-button-container">
 		        <a class="lur-button-1-smaller" href="tel:8044898188"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundphoneicon.svg" alt="Phone Symbol" class="lur-expertise-image"></span>(804) 489-8188</a>
-		        <a class="lur-button-1-smaller" href="mailto:contact@leveluprichmond.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@leveluprichmond.com</a>
-		      </div>
-		    </div>
-		  </div>
+                        <a class="lur-button-1-smaller" href="mailto:contact@levelupmarketers.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@levelupmarketers.com</a>
+                      </div>
+                      <p class="lur-expertise-paragraph-text" style="color:#013a51;">1011 E Main St Suite 222, Richmond, VA 23219</p>
+                    </div>
+                  </div>
 		  <div class="lur-sitewide-footer-contact-left-column">';
 		    echo do_shortcode('[contact-form-7 id="230" title="Contact form 1"]');
 		  echo '</div>
@@ -232,10 +233,11 @@ get_header(); ?>
 		      <p class="lur-expertise-paragraph-text" style="color:#013a51;">We understand that searching for the right partner to help with your Digital Marketing needs can be it\'s own part-time job! That\'s why we strive to make things as straight-forward and simple for our clients as possible. Do you have 5 minutes to decide if we\'re that right partner? That\'s all it takes. <a class="text-link" href="tel:8044898188">Give us a call at (804) 489-8188</a>.</p>
 		      <div class="lur-expertise-button-container">
 		        <a class="lur-button-1-smaller" href="tel:8044898188"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundphoneicon.svg" alt="Phone Symbol" class="lur-expertise-image"></span>(804) 489-8188</a>
-		        <a class="lur-button-1-smaller" href="mailto:contact@leveluprichmond.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@leveluprichmond.com</a>
-		      </div>
-		    </div>
-		  </div>
+                        <a class="lur-button-1-smaller" href="mailto:contact@levelupmarketers.com"><span class="lur-contactrow-span"><img src="/wp-content/themes/total-child-theme/images/roundmailicon.svg" alt="Email Symbol" class="lur-expertise-image"></span>contact@levelupmarketers.com</a>
+                      </div>
+                      <p class="lur-expertise-paragraph-text" style="color:#013a51;">1011 E Main St Suite 222, Richmond, VA 23219</p>
+                    </div>
+                  </div>
 		  <div class="lur-sitewide-footer-contact-left-column">';
 		    echo do_shortcode('[contact-form-7 id="230" title="Contact form 1"]');
 		  echo '</div>
